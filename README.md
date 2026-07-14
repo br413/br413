@@ -5,7 +5,8 @@
 **Cloud data platforms · Reliable pipelines · Developer automation**
 
 [![GitHub followers](https://img.shields.io/github/followers/br413?style=flat-square&logo=github)](https://github.com/br413)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/br413)
+<!-- Replace with your real LinkedIn URL when ready -->
+<!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_HANDLE) -->
 
 </div>
 
