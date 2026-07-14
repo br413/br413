@@ -5,7 +5,9 @@
 **Cloud data platforms · Reliable pipelines · Developer automation**
 
 [![GitHub followers](https://img.shields.io/github/followers/br413?style=flat-square&logo=github)](https://github.com/br413)
-<!-- Replace with your real LinkedIn URL when ready -->
+[![production-data-pipeline](https://img.shields.io/badge/Portfolio-production--data--pipeline-1f6feb?style=flat-square&logo=github)](https://github.com/br413/production-data-pipeline)
+[![v0.1.0](https://img.shields.io/github/v/release/br413/production-data-pipeline?label=v0.1.0&style=flat-square)](https://github.com/br413/production-data-pipeline/releases/tag/v0.1.0)
+<!-- Add your real LinkedIn when ready -->
 <!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_HANDLE) -->
 
 </div>
@@ -32,27 +34,22 @@ Keep systems understandable.
 | **Cloud** | AWS · Azure |
 | **Quality** | Data testing · CI/CD · Monitoring · Lineage · Governance |
 
-## What I build
+## Featured work
 
-- Production-grade ingestion and transformation pipelines
-- Scalable lakehouse and dimensional data models
-- Data-quality controls, observability and recovery workflows
-- Cloud-native automation for repeatable deployments
-- Practical AI/data integrations with clear operational boundaries
+| Project | Highlights |
+|---------|------------|
+| [**production-data-pipeline**](https://github.com/br413/production-data-pipeline) | Incremental ingestion · PostgreSQL bronze · dbt silver/gold · Airflow DAG · [**v0.1.0**](https://github.com/br413/production-data-pipeline/releases/tag/v0.1.0) |
 
-## Featured repositories
+**Open-source contributions**
 
-| Project | Description | Status |
-|---------|-------------|--------|
-| [**production-data-pipeline**](https://github.com/br413/production-data-pipeline) | Incremental API ingestion, dbt transforms, Airflow orchestration | 🚧 In progress |
-| **data-quality-observability** | Schema validation, freshness checks, alert routing | 📋 Planned |
-| **cloud-lakehouse-blueprint** | Bronze/silver/gold IaC blueprint with governance | 📋 Planned |
+- [apache/airflow#69857](https://github.com/apache/airflow/pull/69857) — SQLAlchemy 2.0 documentation link
+- [dbt-labs/docs.getdbt.com#9606](https://github.com/dbt-labs/docs.getdbt.com/pull/9606) — prefixed schema troubleshooting
 
 ## Building in public
 
 I publish focused, production-style projects that demonstrate architecture, testing, documentation, deployment and operational reliability — not only code samples.
 
-Recent work follows a deliberate roadmap: foundation → ingestion → quality → lakehouse blueprint. Commits, issues and pull requests reflect real incremental progress.
+Recent milestone: **v0.1.0** with ingestion, dbt transforms, Airflow orchestration, operations runbook, and green CI.
 
 ## Collaboration
 
@@ -74,5 +71,7 @@ Open to:
 </div>
 
 ---
+
+**Portfolio:** https://github.com/br413/production-data-pipeline · **Release:** https://github.com/br413/production-data-pipeline/releases/tag/v0.1.0
 
 **Primary interests:** data platforms · distributed systems · cloud engineering · developer tooling · applied AI
