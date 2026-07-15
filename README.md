@@ -76,6 +76,7 @@ Badges appear automatically on your [profile Achievements tab](https://github.co
 
 Open to:
 
+- [Discussions and Q&A](https://github.com/br413/br413/discussions) on portfolio architecture
 - Open-source data-platform contributions
 - Backend, cloud and automation projects
 - Data-quality and observability tooling
