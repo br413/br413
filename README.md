@@ -50,13 +50,10 @@ Keep systems understandable.
 
 ## Recent work
 
-**July 2026** — portfolio iteration across three repos plus upstream docs:
-
 - **production-data-pipeline** — structured ingestion summary metrics, webhook alerts for zero-record runs and Airflow failures, local `scripts/check.ps1`
 - **data-quality-observability** — customers data contract, `dqo_contract_checks` Airflow DAG (orders + customers)
 - **cloud-lakehouse-blueprint** — `validate --json` for CI pipelines, deployment docs, changelog
 - **Prefect** — merged upstream docs PR on Kubernetes health vs readiness probes
-- **Q&A** — [portfolio discussions](https://github.com/br413/br413/discussions) and [pipeline monitoring Q&A](https://github.com/br413/production-data-pipeline/discussions/23)
 
 ## Building in public
 
@@ -66,7 +63,6 @@ I publish focused, production-style projects with architecture docs, tests, CI, 
 
 Open to:
 
-- [Discussions and Q&A](https://github.com/br413/br413/discussions) on portfolio architecture
 - Open-source data-platform contributions
 - Backend, cloud and automation projects
 - Data-quality and observability tooling
