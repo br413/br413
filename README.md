@@ -9,6 +9,7 @@
 [![dbt](https://img.shields.io/badge/dbt-transformations-FF694B?style=flat-square&logo=dbt&logoColor=white)](https://www.getdbt.com/)
 [![Airflow](https://img.shields.io/badge/Apache-Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)](https://airflow.apache.org/)
 [![Terraform](https://img.shields.io/badge/Terraform-IaC-844FBA?style=flat-square&logo=terraform&logoColor=white)](https://www.terraform.io/)
+[![Portfolio site](https://img.shields.io/badge/Website-br413.github.io-1f6feb?style=flat-square&logo=githubpages&logoColor=white)](https://br413.github.io/)
 [![production-data-pipeline](https://img.shields.io/badge/Portfolio-production--data--pipeline-1f6feb?style=flat-square&logo=github)](https://github.com/br413/production-data-pipeline)
 [![v0.1.0](https://img.shields.io/github/v/release/br413/production-data-pipeline?label=v0.1.0&style=flat-square)](https://github.com/br413/production-data-pipeline/releases/tag/v0.1.0)
 
@@ -90,6 +91,6 @@ Open to:
 
 ---
 
-**Portfolio:** [production-data-pipeline](https://github.com/br413/production-data-pipeline) · **Release:** [v0.1.0](https://github.com/br413/production-data-pipeline/releases/tag/v0.1.0) · **Lakehouse blueprint:** [cloud-lakehouse-blueprint](https://github.com/br413/cloud-lakehouse-blueprint) · **Data quality:** [data-quality-observability](https://github.com/br413/data-quality-observability)
+**Website:** [br413.github.io](https://br413.github.io/) · **Portfolio:** [production-data-pipeline](https://github.com/br413/production-data-pipeline) · **Release:** [v0.1.0](https://github.com/br413/production-data-pipeline/releases/tag/v0.1.0) · **Lakehouse blueprint:** [cloud-lakehouse-blueprint](https://github.com/br413/cloud-lakehouse-blueprint) · **Data quality:** [data-quality-observability](https://github.com/br413/data-quality-observability)
 
 **Focus areas:** data engineering · data architecture · cloud data platforms · lakehouse · ETL pipelines · dbt · Airflow · data quality · observability · Terraform · AWS · Azure · Databricks · Snowflake
