@@ -1,10 +1,14 @@
 <div align="center">
 
-# Senior Data Engineer
+# Senior Data Engineer & Data Architect
 
-**Cloud data platforms · Reliable pipelines · Developer automation**
+**Cloud data platforms · Lakehouse architecture · Production ETL pipelines · Data quality & observability**
 
-[![GitHub followers](https://img.shields.io/github/followers/br413?style=flat-square&logo=github)](https://github.com/br413)
+[![GitHub followers](https://img.shields.io/github/followers/br413?style=flat-square&logo=github&label=Follow)](https://github.com/br413)
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![dbt](https://img.shields.io/badge/dbt-transformations-FF694B?style=flat-square&logo=dbt&logoColor=white)](https://www.getdbt.com/)
+[![Airflow](https://img.shields.io/badge/Apache-Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)](https://airflow.apache.org/)
+[![Terraform](https://img.shields.io/badge/Terraform-IaC-844FBA?style=flat-square&logo=terraform&logoColor=white)](https://www.terraform.io/)
 [![production-data-pipeline](https://img.shields.io/badge/Portfolio-production--data--pipeline-1f6feb?style=flat-square&logo=github)](https://github.com/br413/production-data-pipeline)
 [![v0.1.0](https://img.shields.io/github/v/release/br413/production-data-pipeline?label=v0.1.0&style=flat-square)](https://github.com/br413/production-data-pipeline/releases/tag/v0.1.0)
 
@@ -12,7 +16,9 @@
 
 ---
 
-I design and build data systems that turn fragmented sources into **reliable, observable, analytics-ready platforms**.
+## About
+
+I design and build **cloud data platforms** that turn fragmented sources into reliable, observable, analytics-ready systems. My work spans **data engineering**, **data architecture**, and **platform automation** — incremental ETL pipelines, medallion lakehouse design, contract-driven data quality, and production operations on **AWS**, **Azure**, **Databricks**, and **Snowflake**.
 
 ```text
 Design for failure.
@@ -22,31 +28,35 @@ Document decisions.
 Keep systems understandable.
 ```
 
-## Core focus
+## Expertise
 
-| Area | Stack |
-|------|-------|
-| **Languages** | Python · SQL |
-| **Platforms** | Databricks · Snowflake · Lakehouse architectures |
-| **Orchestration** | Airflow · dbt · Prefect · Spark |
-| **Cloud** | AWS · Azure |
-| **Quality** | Data testing · CI/CD · Monitoring · Lineage · Governance |
+| Domain | Technologies & practices |
+|--------|--------------------------|
+| **Data engineering** | Python · SQL · incremental ingestion · ETL/ELT · API pipelines · checkpointing |
+| **Data architecture** | Medallion lakehouse · bronze/silver/gold layers · lineage · governance · cost modeling |
+| **Orchestration** | Apache Airflow · dbt · Prefect · Spark |
+| **Cloud platforms** | AWS · Azure · Databricks · Snowflake |
+| **Quality & observability** | Data contracts · schema validation · freshness checks · alerting · CI/CD |
 
-## Featured work
+## Data engineering portfolio
 
-| Project | Highlights |
-|---------|------------|
-| [**production-data-pipeline**](https://github.com/br413/production-data-pipeline) | Incremental ingestion · ingestion metrics · webhook alerts · dbt · Airflow · [**v0.1.0**](https://github.com/br413/production-data-pipeline/releases/tag/v0.1.0) |
-| [**data-quality-observability**](https://github.com/br413/data-quality-observability) | Orders & customers contracts · check history · alert routing · Airflow DAG |
-| [**cloud-lakehouse-blueprint**](https://github.com/br413/cloud-lakehouse-blueprint) | Medallion manifests · Terraform IaC · `validate --json` · lineage · cost modeling |
+Production-style open-source projects with architecture docs, tests, CI, and operations runbooks.
+
+| Project | What it demonstrates |
+|---------|----------------------|
+| [**production-data-pipeline**](https://github.com/br413/production-data-pipeline) | Incremental API ingestion · PostgreSQL bronze layer · dbt silver/gold models · Airflow orchestration · webhook alerts · [**v0.1.0 release**](https://github.com/br413/production-data-pipeline/releases/tag/v0.1.0) |
+| [**data-quality-observability**](https://github.com/br413/data-quality-observability) | YAML data contracts · schema/null/uniqueness/freshness checks · check history · alert routing · Airflow scheduling |
+| [**cloud-lakehouse-blueprint**](https://github.com/br413/cloud-lakehouse-blueprint) | Medallion architecture manifests · Terraform IaC · IAM governance · lineage graph · `validate --json` for CI |
 
 ## Open-source contributions
 
+Contributions to widely used data-platform projects:
+
 | Project | PR | Change |
 |---------|-----|--------|
-| **Prefect** | [#22500](https://github.com/PrefectHQ/prefect/pull/22500) ✓ | Document `/api/health` vs `/api/ready` for Kubernetes probes |
-| **Apache Airflow** | [#69857](https://github.com/apache/airflow/pull/69857) | Update SQLAlchemy pooling link to 2.0 docs |
-| **dbt docs** | [#9606](https://github.com/dbt-labs/docs.getdbt.com/pull/9606) | Troubleshooting note for prefixed custom schema names |
+| [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22500](https://github.com/PrefectHQ/prefect/pull/22500) ✓ merged | Document `/api/health` vs `/api/ready` for Kubernetes probes |
+| [**Apache Airflow**](https://github.com/apache/airflow) | [#69857](https://github.com/apache/airflow/pull/69857) | Update SQLAlchemy pooling link to 2.0 docs |
+| [**dbt docs**](https://github.com/dbt-labs/docs.getdbt.com) | [#9606](https://github.com/dbt-labs/docs.getdbt.com/pull/9606) | Troubleshooting note for prefixed custom schema names |
 
 ## Recent work
 
@@ -57,16 +67,16 @@ Keep systems understandable.
 
 ## Building in public
 
-I publish focused, production-style projects with architecture docs, tests, CI, operations runbooks, and honest iteration — not just code samples.
+I publish focused, production-style data platform projects — not toy demos. Each repo includes architecture decision records, pytest coverage, GitHub Actions CI, and honest iteration through releases.
 
 ## Collaboration
 
 Open to:
 
-- Open-source data-platform contributions
-- Backend, cloud and automation projects
-- Data-quality and observability tooling
-- Technical collaboration with engineering teams and maintainers
+- Open-source **data platform** and **data engineering** contributions
+- **Data architecture** reviews and lakehouse design discussions
+- **Data quality**, **observability**, and **pipeline automation** tooling
+- Technical collaboration with engineering teams and OSS maintainers
 
 ## GitHub activity
 
@@ -80,6 +90,6 @@ Open to:
 
 ---
 
-**Portfolio:** https://github.com/br413/production-data-pipeline · **Release:** https://github.com/br413/production-data-pipeline/releases/tag/v0.1.0
+**Portfolio:** [production-data-pipeline](https://github.com/br413/production-data-pipeline) · **Release:** [v0.1.0](https://github.com/br413/production-data-pipeline/releases/tag/v0.1.0) · **Lakehouse blueprint:** [cloud-lakehouse-blueprint](https://github.com/br413/cloud-lakehouse-blueprint) · **Data quality:** [data-quality-observability](https://github.com/br413/data-quality-observability)
 
-**Primary interests:** data platforms · distributed systems · cloud engineering · developer tooling · applied AI
+**Focus areas:** data engineering · data architecture · cloud data platforms · lakehouse · ETL pipelines · dbt · Airflow · data quality · observability · Terraform · AWS · Azure · Databricks · Snowflake
