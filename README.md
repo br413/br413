@@ -65,7 +65,7 @@ Three connected layers — not isolated demo repos:
 
 | Article | Topic |
 |---------|-------|
-| [**Building a Production Data Pipeline with Incremental Loading and dbt**](https://dev.to/bobby_ray_581732c715283b2/building-a-production-data-pipeline-with-incremental-loading-and-dbt-57md) | Incremental checkpoints, idempotent loads, medallion layering, Airflow orchestration, failure modes, and scale trade-offs |
+| [**Building a Production Data Pipeline with Incremental Loading and dbt**](https://dev.to/bobby_ray_581732c715283b2/building-a-production-data-pipeline-with-incremental-loading-and-dbt-2e2c) | Incremental checkpoints, idempotent loads, medallion layering, Airflow orchestration, failure modes, and scale trade-offs |
 
 More at [**br413.github.io**](https://br413.github.io/) · series: *Cloud Data Platform Patterns*
 
