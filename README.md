@@ -51,20 +51,23 @@ Production-style open-source projects with architecture docs, tests, CI, and ope
 
 ## Open-source contributions
 
-Contributions to widely used data-platform projects:
+Contributions to widely used **data engineering** platforms:
 
 | Project | PR | Change |
 |---------|-----|--------|
 | [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22500](https://github.com/PrefectHQ/prefect/pull/22500) ✓ merged | Document `/api/health` vs `/api/ready` for Kubernetes probes |
-| [**Apache Airflow**](https://github.com/apache/airflow) | [#69857](https://github.com/apache/airflow/pull/69857) | Update SQLAlchemy pooling link to 2.0 docs |
+| [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22533](https://github.com/PrefectHQ/prefect/pull/22533) | Clarify active global concurrency limit setup for context manager examples |
 | [**dbt docs**](https://github.com/dbt-labs/docs.getdbt.com) | [#9606](https://github.com/dbt-labs/docs.getdbt.com/pull/9606) | Troubleshooting note for prefixed custom schema names |
+| [**dbt docs**](https://github.com/dbt-labs/docs.getdbt.com) | [#9644](https://github.com/dbt-labs/docs.getdbt.com/pull/9644) | Clarify `DBT_SEND_ANONYMOUS_USAGE_STATS` vs `DBT_ENGINE_SEND_ANONYMOUS_USAGE_STATS` |
+| [**Apache Airflow**](https://github.com/apache/airflow) | [#69857](https://github.com/apache/airflow/pull/69857) | Update SQLAlchemy pooling link to 2.0 docs |
 
 ## Recent work
 
 - **production-data-pipeline** — structured ingestion summary metrics, webhook alerts for zero-record runs and Airflow failures, local `scripts/check.ps1`
 - **data-quality-observability** — customers data contract, `dqo_contract_checks` Airflow DAG (orders + customers)
 - **cloud-lakehouse-blueprint** — `validate --json` for CI pipelines, deployment docs, changelog
-- **Prefect** — merged upstream docs PR on Kubernetes health vs readiness probes
+- **Prefect** — merged upstream docs PR on Kubernetes health vs readiness probes; new PR on global concurrency limit setup ([#22533](https://github.com/PrefectHQ/prefect/pull/22533))
+- **dbt docs** — open PRs on schema naming ([#9606](https://github.com/dbt-labs/docs.getdbt.com/pull/9606)) and usage stats env vars ([#9644](https://github.com/dbt-labs/docs.getdbt.com/pull/9644))
 
 ## Building in public
 
