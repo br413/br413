@@ -41,13 +41,16 @@ Keep systems understandable.
 
 ## Data engineering portfolio
 
-Production-style open-source projects with architecture docs, tests, CI, and operations runbooks.
+Production-style open-source projects with architecture docs, tests, CI, and operations runbooks — **pinned in this order** on my profile.
 
-| Project | What it demonstrates |
-|---------|----------------------|
-| [**production-data-pipeline**](https://github.com/br413/production-data-pipeline) | Incremental API ingestion · PostgreSQL bronze layer · dbt silver/gold models · Airflow orchestration · webhook alerts · [**v0.1.0 release**](https://github.com/br413/production-data-pipeline/releases/tag/v0.1.0) |
-| [**data-quality-observability**](https://github.com/br413/data-quality-observability) | YAML data contracts · schema/null/uniqueness/freshness checks · check history · alert routing · Airflow scheduling |
-| [**cloud-lakehouse-blueprint**](https://github.com/br413/cloud-lakehouse-blueprint) | Medallion architecture manifests · Terraform IaC · IAM governance · lineage graph · `validate --json` for CI |
+| # | Project | Story | What it demonstrates |
+|---|---------|-------|----------------------|
+| 1 | [**production-data-pipeline**](https://github.com/br413/production-data-pipeline) | End-to-end pipeline | Incremental API ingestion · PostgreSQL bronze · dbt silver/gold · Airflow · webhook alerts · [**v0.1.0**](https://github.com/br413/production-data-pipeline/releases/tag/v0.1.0) |
+| 2 | [**data-quality-observability**](https://github.com/br413/data-quality-observability) | Quality & contracts | YAML data contracts · schema/null/uniqueness/freshness checks · check history · alert routing |
+| 3 | [**cloud-lakehouse-blueprint**](https://github.com/br413/cloud-lakehouse-blueprint) | Platform architecture | Medallion manifests · Terraform IaC · IAM governance · lineage · `validate --json` for CI |
+| 4 | [**br413.github.io**](https://github.com/br413/br413.github.io) | Portfolio & ops | Public portfolio site · Search Console indexed · cross-linked writing and OSS work |
+| 5 | [**JobBoard_Dashboard**](https://github.com/br413/JobBoard_Dashboard) | Analytics delivery | Next.js dashboard sample · job market metrics for business-facing demos |
+| 6 | [**br413**](https://github.com/br413/br413) | Profile & OSS | Featured projects · open-source contributions to dbt and Prefect |
 
 ## Open-source contributions
 
