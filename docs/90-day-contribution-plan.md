@@ -41,11 +41,11 @@
 
 ### Week 2
 - [ ] `production-data-pipeline`: add architecture diagram to README
-- [ ] Comment on **Airflow [#43366](https://github.com/apache/airflow/issues/43366)** before opening PR
+- [x] Comment on **Airflow [#43366](https://github.com/apache/airflow/issues/43366)** before opening PR
+- [x] Open **Airflow [#71158](https://github.com/apache/airflow/pull/71158)** — clarify metrics vs traces `otel_*` descriptions (not removal)
 - [ ] Share Dev.to pipeline article on LinkedIn with portfolio link
 
 ### Week 3
-- [ ] Open PR for **Airflow [#43366](https://github.com/apache/airflow/issues/43366)** (remove duplicate `otel_*` config entries)
 - [ ] `data-quality-observability`: add webhook integration test (open issue → PR)
 
 ### Week 4
@@ -101,7 +101,7 @@
 |---|------|--------|-----|--------|
 | 1 | **Prefect** | [#22533](https://github.com/PrefectHQ/prefect/pull/22533) | Concurrency docs; P2 feedback addressed | Open — awaiting re-review |
 | 2 | **Airflow** | [#70171](https://github.com/apache/airflow/pull/70171) | dbt Cloud failure details in task logs | Open — CI fixes pushed |
-| 3 | **Airflow** | [#43366](https://github.com/apache/airflow/issues/43366) | Remove duplicate `otel_*` config entries | Week 2 — comment before PR |
+| 3 | **Airflow** | [#71158](https://github.com/apache/airflow/pull/71158) | Metrics vs traces `otel_*` config clarity | Open — CI pending |
 | 4 | **Meltano** | [#6289](https://github.com/meltano/meltano/issues/6289) | `elt` vs `run` docs; Accepting PRs | Not started |
 | 5 | **dbt docs** | [#9717](https://github.com/dbt-labs/docs.getdbt.com/issues/9717) | Fusion telemetry doc accuracy | Not started |
 
