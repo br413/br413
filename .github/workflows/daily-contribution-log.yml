@@ -1,0 +1,52 @@
+name: Daily contribution log
+
+on:
+  schedule:
+    # 12:00 UTC every day (~6 AM MDT / 5 AM MST)
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-log:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Append today's entry
+        run: |
+          set -euo pipefail
+          LOG="docs/contribution-log.md"
+          TODAY="$(date -u +%Y-%m-%d)"
+          DOW="$(date -u +%A)"
+
+          case "$DOW" in
+            Monday)    REMINDER="Comment on 1 upstream issue; 1 small docs/tests commit on a portfolio repo" ;;
+            Wednesday) REMINDER="OSS PR work or portfolio feature/fix" ;;
+            Friday)    REMINDER="README/ADR/ops runbook update; cross-link writing or portfolio" ;;
+            *)         REMINDER="Optional: review open PRs or 90-day plan checklist" ;;
+          esac
+
+          if grep -q "| ${TODAY} |" "$LOG"; then
+            echo "Entry for ${TODAY} already exists; skipping."
+            exit 0
+          fi
+
+          printf '| %s | %s | %s |\n' "$TODAY" "$DOW" "$REMINDER" >> "$LOG"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet docs/contribution-log.md; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git add docs/contribution-log.md
+          git commit -m "chore: daily contribution log $(date -u +%Y-%m-%d)"
+          git push
