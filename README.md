@@ -82,10 +82,26 @@ Production operations knowledge contributed upstream:
 
 | Project | PR | Change |
 |---------|-----|--------|
-| [**Airflow**](https://github.com/apache/airflow) | [**#70185**](https://github.com/apache/airflow/pull/70185) open | dbt Cloud job metadata on OpenLineage events ([#68661](https://github.com/apache/airflow/issues/68661)) |
+| [**Airflow**](https://github.com/apache/airflow) | [#70185](https://github.com/apache/airflow/pull/70185) | dbt Cloud job metadata on OpenLineage events ([#68661](https://github.com/apache/airflow/issues/68661)) |
+| [**Airflow**](https://github.com/apache/airflow) | [#70171](https://github.com/apache/airflow/pull/70171) | Surface dbt Cloud failure details in Airflow task logs |
 | [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22500](https://github.com/PrefectHQ/prefect/pull/22500) ✓ merged | Kubernetes readiness vs liveness probes |
 | [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22533](https://github.com/PrefectHQ/prefect/pull/22533) | Global concurrency limit setup docs |
-| [**dbt docs**](https://github.com/dbt-labs/docs.getdbt.com) | [#9606](https://github.com/dbt-labs/docs.getdbt.com/pull/9606) | Prefixed custom schema troubleshooting |
+| [**dbt docs**](https://github.com/dbt-labs/docs.getdbt.com) | [#9606](https://github.com/dbt-labs/docs.getdbt.com/pull/9606) ✓ merged | Prefixed custom schema troubleshooting |
+
+## Building in public
+
+**Since 2026** — I publish production-style data platform work in the open: portfolio repos, upstream contributions, and technical writing. Prior employer work lived in private GitLab/Azure DevOps; this GitHub profile is my **public proof of craft**, not a full career timeline.
+
+| What you'll find here | Where |
+|----------------------|-------|
+| Lakehouse + pipeline + quality + platform stack | Pinned repos |
+| Upstream OSS (Prefect, dbt, Airflow) | [OSS table above](#open-source-contributions) |
+| Architecture write-ups | [Dev.to](https://dev.to/bobby_ray_581732c715283b2) · [br413.github.io](https://br413.github.io/) |
+| 90-day contribution plan | [docs/90-day-contribution-plan.md](docs/90-day-contribution-plan.md) |
+
+Each flagship repo includes ADRs, pytest coverage, GitHub Actions CI, operations runbooks, and documented trade-offs — not toy demos.
+
+**Current focus (next 90 days):** land open Prefect + Airflow PRs, add Meltano + dbt docs contributions, release `production-data-pipeline` v0.2.0, publish article #2 on data quality contracts.
 
 ## Writing
 
@@ -93,7 +109,7 @@ Production operations knowledge contributed upstream:
 |---------|-------|
 | [**Building a Production Data Pipeline with Incremental Loading and dbt**](https://dev.to/bobby_ray_581732c715283b2/building-a-production-data-pipeline-with-incremental-loading-and-dbt-2e2c) | Incremental checkpoints, idempotent loads, medallion layering, Airflow orchestration, failure modes |
 
-More at [**br413.github.io**](https://br413.github.io/)
+More at [**br413.github.io**](https://br413.github.io/) · series: *Cloud Data Platform Patterns*
 
 ## Collaboration
 
