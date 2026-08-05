@@ -82,10 +82,9 @@ Production operations knowledge contributed upstream:
 
 | Project | PR | Change |
 |---------|-----|--------|
-| [**Airflow**](https://github.com/apache/airflow) | [#70185](https://github.com/apache/airflow/pull/70185) | dbt Cloud job metadata on OpenLineage events ([#68661](https://github.com/apache/airflow/issues/68661)) |
 | [**Airflow**](https://github.com/apache/airflow) | [#70171](https://github.com/apache/airflow/pull/70171) | Surface dbt Cloud failure details in Airflow task logs |
 | [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22500](https://github.com/PrefectHQ/prefect/pull/22500) ✓ merged | Kubernetes readiness vs liveness probes |
-| [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22533](https://github.com/PrefectHQ/prefect/pull/22533) | Global concurrency limit setup docs |
+| [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22533](https://github.com/PrefectHQ/prefect/pull/22533) | Global concurrency limit setup docs (re-review requested) |
 | [**dbt docs**](https://github.com/dbt-labs/docs.getdbt.com) | [#9606](https://github.com/dbt-labs/docs.getdbt.com/pull/9606) ✓ merged | Prefixed custom schema troubleshooting |
 
 ## Building in public
@@ -102,7 +101,7 @@ Production operations knowledge contributed upstream:
 
 Each flagship repo includes ADRs, pytest coverage, GitHub Actions CI, operations runbooks, and documented trade-offs — not toy demos.
 
-**Current focus (next 90 days):** land open Prefect + Airflow PRs, add Meltano + dbt docs contributions, release `production-data-pipeline` v0.2.0, publish article #2 on data quality contracts.
+**Current focus (next 90 days):** land Airflow #70171 + Prefect #22533, open Airflow #43366 + Meltano #6289 PRs, release `production-data-pipeline` v0.2.0, publish article #2 on data quality contracts.
 
 ## Writing
 
