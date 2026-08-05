@@ -36,6 +36,7 @@
 ### Week 1
 - [ ] Fix and merge **Prefect [#22533](https://github.com/PrefectHQ/prefect/pull/22533)** (address `strict=True` vs inactive limit feedback)
 - [ ] Follow up on **Airflow [#70171](https://github.com/apache/airflow/pull/70171)** (dbt Cloud failure details in task logs)
+- [ ] Follow up on **Airflow [#70185](https://github.com/apache/airflow/pull/70185)** (dbt Cloud OpenLineage metadata)
 - [ ] Update profile README OSS table: mark **dbt [#9606](https://github.com/dbt-labs/docs.getdbt.com/pull/9606)** merged ✓
 
 ### Week 2
@@ -99,10 +100,11 @@
 | # | Repo | Target | Why | Status |
 |---|------|--------|-----|--------|
 | 1 | **Prefect** | [#22533](https://github.com/PrefectHQ/prefect/pull/22533) | Concurrency docs; maintainer review received | Open — fix P2 feedback |
-| 2 | **Airflow** | [#70171](https://github.com/apache/airflow/pull/70171) | dbt Cloud failure details in task logs | Open — on-brand DE |
-| 3 | **Airflow** | [#43366](https://github.com/apache/airflow/issues/43366) | Duplicate `otel_*` config docs; good first issue | Not started |
-| 4 | **Meltano** | [#6289](https://github.com/meltano/meltano/issues/6289) | `elt` vs `run` docs; Accepting PRs | Not started |
-| 5 | **dbt docs** | [#9717](https://github.com/dbt-labs/docs.getdbt.com/issues/9717) | Fusion telemetry doc accuracy | Not started |
+| 2 | **Airflow** | [#70185](https://github.com/apache/airflow/pull/70185) | dbt Cloud OpenLineage metadata | Open — on-brand DE |
+| 3 | **Airflow** | [#70171](https://github.com/apache/airflow/pull/70171) | dbt Cloud failure details in task logs | Open — on-brand DE |
+| 4 | **Airflow** | [#43366](https://github.com/apache/airflow/issues/43366) | Duplicate `otel_*` config docs; good first issue | Not started |
+| 5 | **Meltano** | [#6289](https://github.com/meltano/meltano/issues/6289) | `elt` vs `run` docs; Accepting PRs | Not started |
+| 6 | **dbt docs** | [#9717](https://github.com/dbt-labs/docs.getdbt.com/issues/9717) | Fusion telemetry doc accuracy | Not started |
 
 **Already merged (keep on profile):**
 - Prefect [#22500](https://github.com/PrefectHQ/prefect/pull/22500) ✓
