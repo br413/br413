@@ -46,12 +46,12 @@
 - [ ] Share Dev.to pipeline article on LinkedIn with portfolio link
 
 ### Week 3
-- [ ] `data-quality-observability`: add webhook integration test (open issue → PR)
+- [x] `data-quality-observability`: add webhook integration test — [#9](https://github.com/br413/data-quality-observability/issues/9), PR [#10](https://github.com/br413/data-quality-observability/pull/10)
 
 ### Week 4
 - [x] Comment on **Meltano [#6289](https://github.com/meltano/meltano/issues/6289)** — intent to add `elt` vs `run` docs
 - [x] Open **Meltano [#10253](https://github.com/meltano/meltano/pull/10253)** — `elt` vs `run` decision guide in v2 migration docs
-- [ ] Release **production-data-pipeline v0.2.0** (changelog + tagged release)
+- [x] Release **production-data-pipeline v0.2.0** — changelog merged ([#29](https://github.com/br413/production-data-pipeline/pull/29)); tag `v0.2.0` pending GitHub release publish
 - [ ] Request indexing for new content in Google Search Console
 
 ---
