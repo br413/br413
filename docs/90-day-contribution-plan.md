@@ -66,7 +66,7 @@
 - [ ] Dev.to article #2: *Data Quality Contracts in Production Pipelines*
 
 ### Week 7
-- [x] `production-data-pipeline`: dead-letter / failed-record handling spike — [#31](https://github.com/br413/production-data-pipeline/issues/31), ADR [#32](https://github.com/br413/production-data-pipeline/pull/32)
+- [x] `production-data-pipeline`: dead-letter / failed-record handling — design [#31](https://github.com/br413/production-data-pipeline/issues/31)/[#32](https://github.com/br413/production-data-pipeline/pull/32), implementation [#33](https://github.com/br413/production-data-pipeline/pull/33)
 - [x] Review someone else's PR in Prefect or Airflow (comment only) — note on [Airflow #70400](https://github.com/apache/airflow/pull/70400)
 
 ### Week 8
