@@ -50,6 +50,7 @@
 
 ### Week 4
 - [x] Comment on **Meltano [#6289](https://github.com/meltano/meltano/issues/6289)** — intent to add `elt` vs `run` docs
+- [x] Open **Meltano [#10253](https://github.com/meltano/meltano/pull/10253)** — `elt` vs `run` decision guide in v2 migration docs
 - [ ] Release **production-data-pipeline v0.2.0** (changelog + tagged release)
 - [ ] Request indexing for new content in Google Search Console
 
@@ -58,7 +59,7 @@
 ## Phase 2 — Expand upstream footprint (Weeks 5–8)
 
 ### Week 5
-- [ ] Open PR for **Meltano [#6289](https://github.com/meltano/meltano/issues/6289)** (`elt` vs `run` documentation)
+- [x] Open PR for **Meltano [#6289](https://github.com/meltano/meltano/issues/6289)** — [#10253](https://github.com/meltano/meltano/pull/10253) opened (ahead of schedule)
 - [ ] Portfolio: add cost/ops notes to `cloud-lakehouse-blueprint`
 
 ### Week 6
@@ -102,7 +103,7 @@
 | 1 | **Prefect** | [#22533](https://github.com/PrefectHQ/prefect/pull/22533) | Concurrency docs; P2 feedback addressed | Open — awaiting re-review |
 | 2 | **Airflow** | [#70171](https://github.com/apache/airflow/pull/70171) | dbt Cloud failure details in task logs | Open — CI fixes pushed |
 | 3 | **Airflow** | [#71158](https://github.com/apache/airflow/pull/71158) | Metrics vs traces `otel_*` config clarity | **Approved** — awaiting merge |
-| 4 | **Meltano** | [#6289](https://github.com/meltano/meltano/issues/6289) | `elt` vs `run` docs; Accepting PRs | Comment posted — PR next |
+| 4 | **Meltano** | [#10253](https://github.com/meltano/meltano/pull/10253) | `elt` vs `run` docs; closes [#6289](https://github.com/meltano/meltano/issues/6289) | Open — awaiting review |
 | 5 | **dbt docs** | [#9717](https://github.com/dbt-labs/docs.getdbt.com/issues/9717) | Fusion telemetry doc accuracy | Not started |
 
 **Already merged (keep on profile):**
