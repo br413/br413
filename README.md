@@ -62,7 +62,7 @@ Connected layers — not isolated demo repos:
 | Layer | Project | Focus |
 |-------|---------|-------|
 | **Flagship · Lakehouse** | [**lakehouse-platform-starter**](https://github.com/br413/lakehouse-platform-starter) | Iceberg + Trino + Cosmos dbt + Airflow + Marquez + GE · Docker stack · CI · hosted docs |
-| **Ingest & transform** | [**production-data-pipeline**](https://github.com/br413/production-data-pipeline) | Incremental API · PostgreSQL bronze · dbt · Airflow · [**v0.1.0**](https://github.com/br413/production-data-pipeline/releases/tag/v0.1.0) |
+| **Ingest & transform** | [**production-data-pipeline**](https://github.com/br413/production-data-pipeline) | Incremental API · PostgreSQL bronze · dbt · Airflow · quarantine/DLQ · [**v0.2.1**](https://github.com/br413/production-data-pipeline/releases/tag/v0.2.1) |
 | **Quality & observability** | [**data-quality-observability**](https://github.com/br413/data-quality-observability) | YAML contracts · schema/freshness checks · run history · alerts |
 | **Platform & governance** | [**cloud-lakehouse-blueprint**](https://github.com/br413/cloud-lakehouse-blueprint) | Medallion manifests · Terraform · IAM · lineage · CI validation |
 
@@ -82,6 +82,7 @@ Production operations knowledge contributed upstream:
 
 | Project | PR | Change |
 |---------|-----|--------|
+| [**dbt docs**](https://github.com/dbt-labs/docs.getdbt.com) | [#9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) | Fusion telemetry: use `duration_ms` for slowest-nodes ranking ([#9717](https://github.com/dbt-labs/docs.getdbt.com/issues/9717)) |
 | [**Meltano**](https://github.com/meltano/meltano) | [#10253](https://github.com/meltano/meltano/pull/10253) | `elt` vs `run` decision guide for replication workloads ([#6289](https://github.com/meltano/meltano/issues/6289)) |
 | [**Airflow**](https://github.com/apache/airflow) | [#71158](https://github.com/apache/airflow/pull/71158) | Clarify metrics vs traces `otel_*` config options ([#43366](https://github.com/apache/airflow/issues/43366)) — approved |
 | [**Airflow**](https://github.com/apache/airflow) | [#70171](https://github.com/apache/airflow/pull/70171) | Surface dbt Cloud failure details in Airflow task logs |
@@ -103,7 +104,7 @@ Production operations knowledge contributed upstream:
 
 Each flagship repo includes ADRs, pytest coverage, GitHub Actions CI, operations runbooks, and documented trade-offs — not toy demos.
 
-**Current focus (next 90 days):** merge Airflow #71158, land #70171 + Prefect #22533, get Meltano #10253 reviewed, release `production-data-pipeline` v0.2.0, publish article #2 on data quality contracts.
+**Current focus (next 90 days):** merge Airflow #71158, land #70171 + Prefect #22533 + dbt #9781, get Meltano #10253 reviewed, publish Dev.to article #2 on data quality contracts.
 
 ## Writing
 

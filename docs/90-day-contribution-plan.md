@@ -13,7 +13,7 @@
 |---------|--------|
 | Upstream merged PRs (data platforms) | **5+** (Prefect, Airflow, dbt, Meltano) |
 | Green contribution weeks | **10+ consecutive** |
-| Portfolio releases | **v0.2.0** on `production-data-pipeline` |
+| Portfolio releases | **v0.2.1** on `production-data-pipeline` (quarantine/DLQ) |
 | Technical writing | **2** Dev.to articles |
 | Pull Shark | Maintain Bronze; progress toward Silver organically |
 
@@ -70,8 +70,8 @@
 - [x] Review someone else's PR in Prefect or Airflow (comment only) — note on [Airflow #70400](https://github.com/apache/airflow/pull/70400)
 
 ### Week 8
-- [ ] Mid-plan retrospective: update OSS table, pin order, portfolio site
-- [ ] Target: **5th upstream merged PR** landed or in final review
+- [x] Mid-plan retrospective: update OSS table and platform stack in profile README
+- [ ] Target: **5th upstream merged PR** landed or in final review (4 open: Airflow #71158 approved, dbt #9781, Meltano #10253, Prefect #22533)
 
 ---
 
