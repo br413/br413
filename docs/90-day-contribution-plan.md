@@ -40,16 +40,16 @@
 - [x] Update profile README OSS table: mark **dbt [#9606](https://github.com/dbt-labs/docs.getdbt.com/pull/9606)** merged ✓
 
 ### Week 2
-- [ ] `production-data-pipeline`: add architecture diagram to README
+- [x] `production-data-pipeline`: add architecture diagram to README ([#28](https://github.com/br413/production-data-pipeline/pull/28))
 - [x] Comment on **Airflow [#43366](https://github.com/apache/airflow/issues/43366)** before opening PR
-- [x] Open **Airflow [#71158](https://github.com/apache/airflow/pull/71158)** — clarify metrics vs traces `otel_*` descriptions (not removal)
+- [x] Open **Airflow [#71158](https://github.com/apache/airflow/pull/71158)** — clarify metrics vs traces `otel_*` descriptions (approved by @ferruzzi)
 - [ ] Share Dev.to pipeline article on LinkedIn with portfolio link
 
 ### Week 3
 - [ ] `data-quality-observability`: add webhook integration test (open issue → PR)
 
 ### Week 4
-- [ ] Comment on **Meltano [#6289](https://github.com/meltano/meltano/issues/6289)**
+- [x] Comment on **Meltano [#6289](https://github.com/meltano/meltano/issues/6289)** — intent to add `elt` vs `run` docs
 - [ ] Release **production-data-pipeline v0.2.0** (changelog + tagged release)
 - [ ] Request indexing for new content in Google Search Console
 
@@ -101,8 +101,8 @@
 |---|------|--------|-----|--------|
 | 1 | **Prefect** | [#22533](https://github.com/PrefectHQ/prefect/pull/22533) | Concurrency docs; P2 feedback addressed | Open — awaiting re-review |
 | 2 | **Airflow** | [#70171](https://github.com/apache/airflow/pull/70171) | dbt Cloud failure details in task logs | Open — CI fixes pushed |
-| 3 | **Airflow** | [#71158](https://github.com/apache/airflow/pull/71158) | Metrics vs traces `otel_*` config clarity | Open — CI pending |
-| 4 | **Meltano** | [#6289](https://github.com/meltano/meltano/issues/6289) | `elt` vs `run` docs; Accepting PRs | Not started |
+| 3 | **Airflow** | [#71158](https://github.com/apache/airflow/pull/71158) | Metrics vs traces `otel_*` config clarity | **Approved** — awaiting merge |
+| 4 | **Meltano** | [#6289](https://github.com/meltano/meltano/issues/6289) | `elt` vs `run` docs; Accepting PRs | Comment posted — PR next |
 | 5 | **dbt docs** | [#9717](https://github.com/dbt-labs/docs.getdbt.com/issues/9717) | Fusion telemetry doc accuracy | Not started |
 
 **Already merged (keep on profile):**
