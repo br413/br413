@@ -59,10 +59,10 @@
 
 ### Week 5
 - [x] Open PR for **Meltano [#6289](https://github.com/meltano/meltano/issues/6289)** — [#10253](https://github.com/meltano/meltano/pull/10253) opened (ahead of schedule)
-- [ ] Portfolio: add cost/ops notes to `cloud-lakehouse-blueprint`
+- [x] Portfolio: add cost/ops notes to `cloud-lakehouse-blueprint` — [#6](https://github.com/br413/cloud-lakehouse-blueprint/pull/6)
 
 ### Week 6
-- [ ] Open PR for **dbt docs [#9717](https://github.com/dbt-labs/docs.getdbt.com/issues/9717)** (Fusion telemetry “slowest nodes” clarification)
+- [x] Open PR for **dbt docs [#9717](https://github.com/dbt-labs/docs.getdbt.com/issues/9717)** — [#9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) (Fusion telemetry slowest-nodes example)
 - [ ] Dev.to article #2: *Data Quality Contracts in Production Pipelines*
 
 ### Week 7
@@ -103,7 +103,7 @@
 | 2 | **Airflow** | [#70171](https://github.com/apache/airflow/pull/70171) | dbt Cloud failure details in task logs | Open — CI fixes pushed |
 | 3 | **Airflow** | [#71158](https://github.com/apache/airflow/pull/71158) | Metrics vs traces `otel_*` config clarity | **Approved** — awaiting merge |
 | 4 | **Meltano** | [#10253](https://github.com/meltano/meltano/pull/10253) | `elt` vs `run` docs; closes [#6289](https://github.com/meltano/meltano/issues/6289) | Open — awaiting review |
-| 5 | **dbt docs** | [#9717](https://github.com/dbt-labs/docs.getdbt.com/issues/9717) | Fusion telemetry doc accuracy | Not started |
+| 5 | **dbt docs** | [#9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) | Fusion telemetry slowest-nodes fix; closes [#9717](https://github.com/dbt-labs/docs.getdbt.com/issues/9717) | Open — awaiting review |
 
 **Already merged (keep on profile):**
 - Prefect [#22500](https://github.com/PrefectHQ/prefect/pull/22500) ✓
