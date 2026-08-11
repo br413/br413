@@ -43,7 +43,6 @@
 - [x] `production-data-pipeline`: add architecture diagram to README ([#28](https://github.com/br413/production-data-pipeline/pull/28))
 - [x] Comment on **Airflow [#43366](https://github.com/apache/airflow/issues/43366)** before opening PR
 - [x] Open **Airflow [#71158](https://github.com/apache/airflow/pull/71158)** — clarify metrics vs traces `otel_*` descriptions (approved by @ferruzzi)
-- [ ] Share Dev.to pipeline article on LinkedIn with portfolio link
 
 ### Week 3
 - [x] `data-quality-observability`: add webhook integration test — [#9](https://github.com/br413/data-quality-observability/issues/9), PR [#10](https://github.com/br413/data-quality-observability/pull/10)
@@ -80,7 +79,7 @@
 
 ### Week 9
 - [ ] Prefect or Airflow doc fix from maintainer feedback backlog
-- [ ] LinkedIn post: “What I learned merging PRs to Prefect + dbt + Airflow”
+- [ ] Dev.to or GitHub discussion: “What I learned merging PRs to Prefect + dbt + Airflow”
 
 ### Week 10
 - [ ] `data-quality-observability`: schema registry / contract versioning design ADR
