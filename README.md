@@ -82,7 +82,8 @@ Production operations knowledge contributed upstream:
 
 | Project | PR | Change |
 |---------|-----|--------|
-| [**Airflow**](https://github.com/apache/airflow) | [#71158](https://github.com/apache/airflow/pull/71158) | Clarify metrics vs traces `otel_*` config options ([#43366](https://github.com/apache/airflow/issues/43366)) |
+| [**Meltano**](https://github.com/meltano/meltano) | [#10253](https://github.com/meltano/meltano/pull/10253) | `elt` vs `run` decision guide for replication workloads ([#6289](https://github.com/meltano/meltano/issues/6289)) |
+| [**Airflow**](https://github.com/apache/airflow) | [#71158](https://github.com/apache/airflow/pull/71158) | Clarify metrics vs traces `otel_*` config options ([#43366](https://github.com/apache/airflow/issues/43366)) — approved |
 | [**Airflow**](https://github.com/apache/airflow) | [#70171](https://github.com/apache/airflow/pull/70171) | Surface dbt Cloud failure details in Airflow task logs |
 | [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22500](https://github.com/PrefectHQ/prefect/pull/22500) ✓ merged | Kubernetes readiness vs liveness probes |
 | [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22533](https://github.com/PrefectHQ/prefect/pull/22533) | Global concurrency limit setup docs (re-review requested) |
@@ -102,7 +103,7 @@ Production operations knowledge contributed upstream:
 
 Each flagship repo includes ADRs, pytest coverage, GitHub Actions CI, operations runbooks, and documented trade-offs — not toy demos.
 
-**Current focus (next 90 days):** land Airflow #70171 + Prefect #22533, open Airflow #43366 + Meltano #6289 PRs, release `production-data-pipeline` v0.2.0, publish article #2 on data quality contracts.
+**Current focus (next 90 days):** merge Airflow #71158, land #70171 + Prefect #22533, get Meltano #10253 reviewed, release `production-data-pipeline` v0.2.0, publish article #2 on data quality contracts.
 
 ## Writing
 
