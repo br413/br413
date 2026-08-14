@@ -13,3 +13,4 @@ Automated heartbeat for the [90-day contribution plan](./90-day-contribution-pla
 | 2026-08-11 | Tuesday | Portfolio: architecture diagram merged; bumped Airflow/Prefect PRs; Meltano #6289 comment |
 | 2026-08-12 | Wednesday | OSS PR work or portfolio feature/fix |
 | 2026-08-13 | Thursday | Optional: review open PRs or 90-day plan checklist |
+| 2026-08-14 | Friday | README/ADR/ops runbook update; cross-link writing or portfolio |
