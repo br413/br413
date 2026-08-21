@@ -100,7 +100,7 @@ Production operations knowledge contributed upstream:
 | Upstream OSS (Prefect, dbt, Airflow) | [OSS table above](#open-source-contributions) |
 | Architecture write-ups | [Dev.to](https://dev.to/bobby_ray_581732c715283b2) · [br413.github.io](https://br413.github.io/) |
 | 90-day contribution plan | [docs/90-day-contribution-plan.md](docs/90-day-contribution-plan.md) |
-| 90-day retrospective · next quarter | [docs/90-day-retrospective.md](docs/90-day-retrospective.md) · [docs/next-quarter-plan.md](docs/next-quarter-plan.md) |
+| 90-day retrospective · next quarter | [Discussion #34](https://github.com/br413/br413/discussions/34) · [docs/90-day-retrospective.md](docs/90-day-retrospective.md) · [docs/next-quarter-plan.md](docs/next-quarter-plan.md) |
 | Daily activity log (automated) | [docs/contribution-log.md](docs/contribution-log.md) |
 
 Each flagship repo includes ADRs, pytest coverage, GitHub Actions CI, operations runbooks, and documented trade-offs — not toy demos.
