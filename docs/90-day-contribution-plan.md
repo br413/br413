@@ -85,8 +85,8 @@
 - [ ] Request GSC indexing — [article #2](https://dev.to/bobby_ray_581732c715283b2/data-quality-contracts-in-production-pipelines-without-a-separate-platform-team-f3), [article #3](https://dev.to/bobby_ray_581732c715283b2/what-i-learned-contributing-to-prefect-dbt-and-airflow-an-honest-oss-retrospective-1ki8), [br413.github.io](https://br413.github.io/)
 
 ### Week 10
-- [ ] `data-quality-observability`: schema registry / contract versioning design ADR
-- [ ] Apply learnings to portfolio README demos
+- [x] `data-quality-observability`: schema registry / contract versioning design ADR — [#12](https://github.com/br413/data-quality-observability/pull/12) [ADR 0002](https://github.com/br413/data-quality-observability/blob/main/docs/adr/0002-schema-registry-and-contract-versioning.md), `contracts/registry.yml`
+- [x] Apply learnings to portfolio README demos — full-stack / platform-stack demo sections in pipeline, quality, and lakehouse repos
 
 ### Week 11
 - [ ] Small Airflow provider improvement (logging, docs, or test — not a mega-feature)
