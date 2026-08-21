@@ -89,8 +89,8 @@
 - [x] Apply learnings to portfolio README demos — [pipeline #36](https://github.com/br413/production-data-pipeline/pull/36), [lakehouse #7](https://github.com/br413/cloud-lakehouse-blueprint/pull/7)
 
 ### Week 11
-- [ ] Small Airflow provider improvement (logging, docs, or test — not a mega-feature)
-- [ ] Cross-link all repos from portfolio site Writing section
+- [x] Small Airflow provider improvement (logging, docs, or test — not a mega-feature) — [dqo #13](https://github.com/br413/data-quality-observability/pull/13) Airflow DAG; [Airflow #70171](https://github.com/apache/airflow/pull/70171) newsfragment CI fix
+- [x] Cross-link all repos from portfolio site Writing section — [br413.github.io c2ab5d0](https://github.com/br413/br413.github.io/commit/c2ab5d0)
 
 ### Week 12
 - [ ] Publish 90-day retrospective (Dev.to or GitHub discussion)
