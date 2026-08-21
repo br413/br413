@@ -100,11 +100,12 @@ Production operations knowledge contributed upstream:
 | Upstream OSS (Prefect, dbt, Airflow) | [OSS table above](#open-source-contributions) |
 | Architecture write-ups | [Dev.to](https://dev.to/bobby_ray_581732c715283b2) · [br413.github.io](https://br413.github.io/) |
 | 90-day contribution plan | [docs/90-day-contribution-plan.md](docs/90-day-contribution-plan.md) |
+| 90-day retrospective · next quarter | [docs/90-day-retrospective.md](docs/90-day-retrospective.md) · [docs/next-quarter-plan.md](docs/next-quarter-plan.md) |
 | Daily activity log (automated) | [docs/contribution-log.md](docs/contribution-log.md) |
 
 Each flagship repo includes ADRs, pytest coverage, GitHub Actions CI, operations runbooks, and documented trade-offs — not toy demos.
 
-**Current focus (next 90 days):** merge Airflow #71158, land #70171 + Prefect #22533 + dbt #9781, get Meltano #10253 reviewed, land 5th upstream merge.
+**Current focus (Q4 2026):** Land in-flight upstream PRs (#71158, #70171, #9781, #10253, #22533), dqo ADR 0002 phase 3, cap open PRs at 2. See [next-quarter-plan.md](docs/next-quarter-plan.md).
 
 ## Writing
 
