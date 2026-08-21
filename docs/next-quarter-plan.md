@@ -91,7 +91,7 @@ Publish only after phase 3 ships so the article matches the code.
 
 | Month | Upstream merges | Portfolio releases | Articles | Notes |
 |-------|-----------------|-------------------|----------|-------|
-| Sep | | dqo ADR 0002 ph. 3–4 | | Phase 3 merged; phase 4 in review |
+| Sep | | dqo ADR 0002 ph. 3–4 | | Phases 3–4 merged ([#14](https://github.com/br413/data-quality-observability/pull/14), [#15](https://github.com/br413/data-quality-observability/pull/15)) |
 | Oct | | | | |
 | Nov | | | | |
 
