@@ -81,9 +81,8 @@
 ### Week 9
 - [x] Upstream follow-ups: merge bump **Airflow [#71158](https://github.com/apache/airflow/pull/71158)**, review nudge **dbt [#9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781)**, link **Meltano [#10253](https://github.com/meltano/meltano/pull/10253)** on [#6289](https://github.com/meltano/meltano/issues/6289), re-review **Prefect [#22533](https://github.com/PrefectHQ/prefect/pull/22533)**
 - [x] Cross-link Dev.to article #2 from `production-data-pipeline` and `data-quality-observability` READMEs
-- [x] Dev.to article #3 draft: [`articles/oss-upstream-retrospective.md`](https://github.com/br413/br413.github.io/blob/main/articles/oss-upstream-retrospective.md) (outline: [`docs/writing/oss-merge-retrospective-devto-draft.md`](docs/writing/oss-merge-retrospective-devto-draft.md))
-- [ ] Request GSC indexing — [article #2](https://dev.to/bobby_ray_581732c715283b2/data-quality-contracts-in-production-pipelines-without-a-separate-platform-team-f3), [br413.github.io](https://br413.github.io/)
-- [ ] Publish retrospective article on Dev.to
+- [x] Dev.to article #3 published: [*What I Learned Contributing to Prefect, dbt, and Airflow*](https://dev.to/bobby_ray_581732c715283b2/what-i-learned-contributing-to-prefect-dbt-and-airflow-an-honest-oss-retrospective-1ki8)
+- [ ] Request GSC indexing — [article #2](https://dev.to/bobby_ray_581732c715283b2/data-quality-contracts-in-production-pipelines-without-a-separate-platform-team-f3), [article #3](https://dev.to/bobby_ray_581732c715283b2/what-i-learned-contributing-to-prefect-dbt-and-airflow-an-honest-oss-retrospective-1ki8), [br413.github.io](https://br413.github.io/)
 
 ### Week 10
 - [ ] `data-quality-observability`: schema registry / contract versioning design ADR

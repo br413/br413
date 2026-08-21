@@ -112,6 +112,7 @@ Each flagship repo includes ADRs, pytest coverage, GitHub Actions CI, operations
 |---------|-------|
 | [**Building a Production Data Pipeline with Incremental Loading and dbt**](https://dev.to/bobby_ray_581732c715283b2/building-a-production-data-pipeline-with-incremental-loading-and-dbt-2e2c) | Incremental checkpoints, idempotent loads, medallion layering, Airflow orchestration, failure modes |
 | [**Data Quality Contracts in Production Pipelines (Without a Separate Platform Team)**](https://dev.to/bobby_ray_581732c715283b2/data-quality-contracts-in-production-pipelines-without-a-separate-platform-team-f3) | Row-level quarantine at ingestion, YAML dataset contracts, alert routing, CI enforcement |
+| [**What I Learned Contributing to Prefect, dbt, and Airflow**](https://dev.to/bobby_ray_581732c715283b2/what-i-learned-contributing-to-prefect-dbt-and-airflow-an-honest-oss-retrospective-1ki8) | Honest OSS retrospective — two merges, four open PRs, ninety days building in public |
 
 More at [**br413.github.io**](https://br413.github.io/) · series: *Cloud Data Platform Patterns*
 
