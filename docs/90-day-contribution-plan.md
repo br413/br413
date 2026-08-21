@@ -79,8 +79,11 @@
 ## Phase 3 — Consolidate reputation (Weeks 9–12)
 
 ### Week 9
-- [ ] Prefect or Airflow doc fix from maintainer feedback backlog
-- [ ] Dev.to or GitHub discussion: “What I learned merging PRs to Prefect + dbt + Airflow”
+- [x] Upstream follow-ups: merge bump **Airflow [#71158](https://github.com/apache/airflow/pull/71158)**, review nudge **dbt [#9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781)**, link **Meltano [#10253](https://github.com/meltano/meltano/pull/10253)** on [#6289](https://github.com/meltano/meltano/issues/6289), re-review **Prefect [#22533](https://github.com/PrefectHQ/prefect/pull/22533)**
+- [x] Cross-link Dev.to article #2 from `production-data-pipeline` and `data-quality-observability` READMEs
+- [x] Dev.to article #3 outline: [`docs/writing/oss-merge-retrospective-devto-draft.md`](docs/writing/oss-merge-retrospective-devto-draft.md)
+- [ ] Request GSC indexing — [article #2](https://dev.to/bobby_ray_581732c715283b2/data-quality-contracts-in-production-pipelines-without-a-separate-platform-team-f3), [br413.github.io](https://br413.github.io/)
+- [ ] Publish retrospective article or GitHub Discussion
 
 ### Week 10
 - [ ] `data-quality-observability`: schema registry / contract versioning design ADR
