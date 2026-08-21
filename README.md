@@ -104,13 +104,14 @@ Production operations knowledge contributed upstream:
 
 Each flagship repo includes ADRs, pytest coverage, GitHub Actions CI, operations runbooks, and documented trade-offs — not toy demos.
 
-**Current focus (next 90 days):** merge Airflow #71158, land #70171 + Prefect #22533 + dbt #9781, get Meltano #10253 reviewed, publish Dev.to article #2 on data quality contracts.
+**Current focus (next 90 days):** merge Airflow #71158, land #70171 + Prefect #22533 + dbt #9781, get Meltano #10253 reviewed, land 5th upstream merge.
 
 ## Writing
 
 | Article | Topic |
 |---------|-------|
 | [**Building a Production Data Pipeline with Incremental Loading and dbt**](https://dev.to/bobby_ray_581732c715283b2/building-a-production-data-pipeline-with-incremental-loading-and-dbt-2e2c) | Incremental checkpoints, idempotent loads, medallion layering, Airflow orchestration, failure modes |
+| [**Data Quality Contracts in Production Pipelines (Without a Separate Platform Team)**](https://dev.to/bobby_ray_581732c715283b2/data-quality-contracts-in-production-pipelines-without-a-separate-platform-team-f3) | Row-level quarantine at ingestion, YAML dataset contracts, alert routing, CI enforcement |
 
 More at [**br413.github.io**](https://br413.github.io/) · series: *Cloud Data Platform Patterns*
 
