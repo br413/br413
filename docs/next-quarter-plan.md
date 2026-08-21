@@ -70,7 +70,7 @@ Publish only after phase 3 ships so the article matches the code.
 
 | Month | Check |
 |-------|-------|
-| **September** | #71158 merged; dqo phase 3 PR open |
+| **September** | #71158 merged; dqo phase 3 merged ([#14](https://github.com/br413/data-quality-observability/pull/14)); phase 4 CI guards ([#15](https://github.com/br413/data-quality-observability/pull/15)) |
 | **October** | 2nd upstream merge landed (cumulative 4+); GSC complete |
 | **November** | 5th cumulative merge OR honest closeout if blocked; next plan draft |
 
@@ -91,7 +91,7 @@ Publish only after phase 3 ships so the article matches the code.
 
 | Month | Upstream merges | Portfolio releases | Articles | Notes |
 |-------|-----------------|-------------------|----------|-------|
-| Sep | | | | |
+| Sep | | dqo ADR 0002 ph. 3–4 | | Phase 3 merged; phase 4 in review |
 | Oct | | | | |
 | Nov | | | | |
 
