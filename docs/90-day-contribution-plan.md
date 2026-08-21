@@ -86,7 +86,7 @@
 
 ### Week 10
 - [x] `data-quality-observability`: schema registry / contract versioning design ADR — [#12](https://github.com/br413/data-quality-observability/pull/12) [ADR 0002](https://github.com/br413/data-quality-observability/blob/main/docs/adr/0002-schema-registry-and-contract-versioning.md), `contracts/registry.yml`
-- [x] Apply learnings to portfolio README demos — full-stack / platform-stack demo sections in pipeline, quality, and lakehouse repos
+- [x] Apply learnings to portfolio README demos — [pipeline #36](https://github.com/br413/production-data-pipeline/pull/36), [lakehouse #7](https://github.com/br413/cloud-lakehouse-blueprint/pull/7)
 
 ### Week 11
 - [ ] Small Airflow provider improvement (logging, docs, or test — not a mega-feature)
