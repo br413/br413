@@ -11,11 +11,11 @@
 
 | Outcome | Target |
 |---------|--------|
-| Upstream merged PRs (data platforms) | **5+** (Prefect, Airflow, dbt, Meltano) |
-| Green contribution weeks | **10+ consecutive** |
-| Portfolio releases | **v0.2.1** on `production-data-pipeline` (quarantine/DLQ) |
-| Technical writing | **2** Dev.to articles |
-| Pull Shark | Maintain Bronze; progress toward Silver organically |
+| Upstream merged PRs (data platforms) | **5+** (Prefect, Airflow, dbt, Meltano) | **2** — see [retrospective](./90-day-retrospective.md) |
+| Green contribution weeks | **10+ consecutive** | **~12** ✓ |
+| Portfolio releases | **v0.2.1** on `production-data-pipeline` (quarantine/DLQ) | ✓ |
+| Technical writing | **2** Dev.to articles | **3** ✓ |
+| Pull Shark | Maintain Bronze; progress toward Silver organically | Bronze maintained |
 
 ---
 
@@ -93,8 +93,8 @@
 - [x] Cross-link all repos from portfolio site Writing section — [br413.github.io c2ab5d0](https://github.com/br413/br413.github.io/commit/c2ab5d0)
 
 ### Week 12
-- [ ] Publish 90-day retrospective (Dev.to or GitHub discussion)
-- [ ] Set next quarter targets (Silver Pull Shark is long-term; focus on quality merges)
+- [x] Publish 90-day retrospective (Dev.to or GitHub discussion) — [docs/90-day-retrospective.md](./90-day-retrospective.md) + GitHub Discussion
+- [x] Set next quarter targets (Silver Pull Shark is long-term; focus on quality merges) — [docs/next-quarter-plan.md](./next-quarter-plan.md)
 
 ---
 
@@ -128,17 +128,17 @@
 
 | Week | Dates | Commits | OSS PRs opened | OSS PRs merged | Notes |
 |------|-------|---------|----------------|----------------|-------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 | Jun | ✓ | — | — | Prefect #22533 P2; Airflow #70171 rebase |
+| 2 | Jun | ✓ | Airflow #71158 | — | Pipeline architecture diagram |
+| 3 | Jun | ✓ | dqo #10 | — | Webhook integration tests |
+| 4 | Jun–Jul | ✓ | Meltano #10253 | — | Pipeline v0.2.0 |
+| 5 | Jul | ✓ | — | — | Lakehouse ops notes |
+| 6 | Jul | ✓ | dbt #9781 | — | v0.2.1 + Dev.to #2 |
+| 7 | Jul | ✓ | pipeline #33 | — | Quarantine/DLQ |
+| 8 | Jul | ✓ | — | — | Mid-plan retrospective; 5th merge gap |
+| 9 | Aug | ✓ | — | — | Dev.to #3 OSS retrospective |
+| 10 | Aug | ✓ | dqo #12, pipeline #36 | — | ADR 0002 schema registry |
+| 11 | Aug | ✓ | dqo #13 | — | Registry CLI; site Writing cross-links |
+| 12 | Aug | ✓ | — | — | 90-day closeout; next quarter plan |
 
 _Update this table every Friday._
