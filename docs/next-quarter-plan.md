@@ -50,7 +50,7 @@
 
 **Candidate topic:** Contract versioning end-to-end — registry → CLI → Airflow DAG → run history (ties dqo ADR 0002 to production-data-pipeline quarantine story).
 
-Publish only after phase 3 ships so the article matches the code.
+Draft ready: [articles/contract-versioning-production-pipelines.md](https://github.com/br413/br413.github.io/blob/main/articles/contract-versioning-production-pipelines.md) — publish with `.\scripts\publish-devto.ps1 -Article versioning` after review.
 
 ---
 
@@ -91,7 +91,7 @@ Publish only after phase 3 ships so the article matches the code.
 
 | Month | Upstream merges | Portfolio releases | Articles | Notes |
 |-------|-----------------|-------------------|----------|-------|
-| Sep | | dqo ADR 0002 ph. 3–4 | | Phases 3–4 merged ([#14](https://github.com/br413/data-quality-observability/pull/14), [#15](https://github.com/br413/data-quality-observability/pull/15)) |
+| Sep | | dqo ADR 0002 ph. 3–5; pipeline ADR 0005 | article #4 draft | ADR 0002 complete; [pipeline #37](https://github.com/br413/production-data-pipeline/pull/37) merged |
 | Oct | | | | |
 | Nov | | | | |
 
