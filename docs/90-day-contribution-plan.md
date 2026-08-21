@@ -64,7 +64,7 @@
 ### Week 6
 - [x] Open PR for **dbt docs [#9717](https://github.com/dbt-labs/docs.getdbt.com/issues/9717)** — [#9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) (Fusion telemetry slowest-nodes example)
 - [x] Release **production-data-pipeline v0.2.1** — [release](https://github.com/br413/production-data-pipeline/releases/tag/v0.2.1) (quarantine/DLQ)
-- [ ] Dev.to article #2: *Data Quality Contracts in Production Pipelines* — draft in [`docs/writing/data-quality-contracts-devto-draft.md`](docs/writing/data-quality-contracts-devto-draft.md)
+- [x] Dev.to article #2: [*Data Quality Contracts in Production Pipelines*](https://dev.to/bobby_ray_581732c715283b2/data-quality-contracts-in-production-pipelines-without-a-separate-platform-team-f3) — published Aug 2026
 
 ### Week 7
 - [x] `production-data-pipeline`: dead-letter / failed-record handling — design [#31](https://github.com/br413/production-data-pipeline/issues/31)/[#32](https://github.com/br413/production-data-pipeline/pull/32), implementation [#33](https://github.com/br413/production-data-pipeline/pull/33)
