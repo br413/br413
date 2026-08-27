@@ -114,7 +114,7 @@ Each flagship repo includes ADRs, pytest coverage, GitHub Actions CI, operations
 | [**Building a Production Data Pipeline with Incremental Loading and dbt**](https://dev.to/bobby_ray_581732c715283b2/building-a-production-data-pipeline-with-incremental-loading-and-dbt-2e2c) | Incremental checkpoints, idempotent loads, medallion layering, Airflow orchestration, failure modes |
 | [**Data Quality Contracts in Production Pipelines (Without a Separate Platform Team)**](https://dev.to/bobby_ray_581732c715283b2/data-quality-contracts-in-production-pipelines-without-a-separate-platform-team-f3) | Row-level quarantine at ingestion, YAML dataset contracts, alert routing, CI enforcement |
 | [**What I Learned Contributing to Prefect, dbt, and Airflow**](https://dev.to/bobby_ray_581732c715283b2/what-i-learned-contributing-to-prefect-dbt-and-airflow-an-honest-oss-retrospective-1ki8) | Honest OSS retrospective — three merges, four open PRs, building in public |
-| [**Contract Versioning in Production Pipelines** (draft)](https://github.com/br413/br413.github.io/blob/main/articles/contract-versioning-production-pipelines.md) | Registry → CLI → run history → CI guards — ADR 0002 stack |
+| [**Contract Versioning in Production Pipelines**](https://dev.to/bobby_ray_581732c715283b2/contract-versioning-in-production-pipelines-registry-cli-and-run-history-13el) | Registry → CLI → run history → CI guards — ADR 0002 stack |
 
 More at [**br413.github.io**](https://br413.github.io/) · series: *Cloud Data Platform Patterns*
 
