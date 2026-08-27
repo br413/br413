@@ -11,9 +11,9 @@
 | Signal | Status |
 |--------|--------|
 | Upstream merges (cumulative) | **3** — Prefect #22500, dbt #9606, Airflow #71158 ✓ |
-| In-flight upstream PRs | **5** — see priority table below |
+| In-flight upstream PRs | **4** — #70171, #9781, #10253, #22533 |
 | Portfolio | pipeline v0.2.1, dqo ADR 0002 complete, pipeline ADR 0005 pins |
-| Writing | 3 Dev.to articles live; **article #4 draft ready** |
+| Writing | **4** Dev.to articles live — [article #4](https://dev.to/bobby_ray_581732c715283b2/contract-versioning-in-production-pipelines-registry-cli-and-run-history-13el) published Aug 2026 |
 | Honest gap | Merge count below 5+ target; review bandwidth is the bottleneck |
 
 ---
@@ -37,7 +37,7 @@
 
 | PR | Nov action | Dec action | Done when |
 |----|------------|------------|-----------|
-| [Airflow #71158](https://github.com/apache/airflow/pull/71158) | Merge bump (approved) | Escalate if stale 30+ days | Merged |
+| [Airflow #71158](https://github.com/apache/airflow/pull/71158) | ~~Merge bump~~ | — | **Merged** ✓ |
 | [Airflow #70171](https://github.com/apache/airflow/pull/70171) | CI green; respond to review | Rebase if needed | Merged or closed gracefully |
 | [dbt docs #9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) | Review nudge | Second nudge if quiet | Merged |
 | [Meltano #10253](https://github.com/meltano/meltano/pull/10253) | Comment on [#6289](https://github.com/meltano/meltano/issues/6289) | Merge bump | Review or merge |
@@ -49,27 +49,14 @@
 - After cumulative merges ≥ **5**, at most **one** new small docs/ops PR per month
 - Close or withdraw stale PRs rather than let them rot
 
-### 2. Publish article #4 (Dec)
+### 2. Publish article #4 — done ✓
 
-Draft: [contract-versioning-production-pipelines.md](https://github.com/br413/br413.github.io/blob/main/articles/contract-versioning-production-pipelines.md)
-
-```powershell
-$env:DEVTO_API_KEY = "your-key"
-.\scripts\publish-devto.ps1 -Article versioning
-```
-
-After publish:
-
-- Add link to [br413.github.io](https://br413.github.io/) Writing section
-- Update profile README Writing table
-- Cross-link from pipeline + dqo READMEs
-- Request GSC indexing
+Published: [Contract Versioning in Production Pipelines](https://dev.to/bobby_ray_581732c715283b2/contract-versioning-in-production-pipelines-registry-cli-and-run-history-13el) (Aug 2026). Site and README cross-links synced.
 
 ### 3. Visibility cleanup (Dec–Jan)
 
-- [ ] GSC: articles #2, #3, #4, br413.github.io
-- [ ] Dev.to cover images for articles #2, #3, #4
-- [ ] Portfolio site Writing section lists article #4 + repo cross-links
+- [ ] Request GSC indexing (articles #2–#4 + br413.github.io)
+- [ ] Dev.to cover image for article #4 (and #2–#3 if missing)
 
 ### 4. Portfolio (Jan — optional)
 
@@ -88,7 +75,7 @@ Only if upstream WIP ≤ 2:
 | Month | Must achieve | Stretch |
 |-------|--------------|---------|
 | **November 2026** | Q4 closeout doc updated; **#71158 merged** ✓ | 4th cumulative merge |
-| **December 2026** | Article #4 published; GSC submitted for all URLs | 4th cumulative merge |
+| **December 2026** | GSC submitted for all URLs; cover images | 4th cumulative merge |
 | **January 2027** | Honest Q1 retrospective; draft Feb–Apr plan | 5 cumulative merges; pipeline v0.3.0 |
 
 ---
@@ -109,8 +96,8 @@ Only if upstream WIP ≤ 2:
 
 | Month | Upstream merges (cum.) | Articles | GSC | Notes |
 |-------|------------------------|----------|-----|-------|
-| Nov 2026 | 3 | article #4 draft on site | | Airflow #71158 merged |
-| Dec 2026 | | | | |
+| Nov 2026 | 3 | 4 live | | #71158 merged |
+| Dec 2026 | | 4 live | pending | Article #4 published early (Aug) |
 | Jan 2027 | | | | |
 
 _Update on the first Friday of each month._
