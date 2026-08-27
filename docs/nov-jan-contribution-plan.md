@@ -10,8 +10,8 @@
 
 | Signal | Status |
 |--------|--------|
-| Upstream merges (cumulative) | **3** — Prefect #22500, dbt #9606, Airflow #71158 ✓ |
-| In-flight upstream PRs | **4** — #70171, #9781, #10253, #22533 |
+| Upstream merges (cumulative) | **4** — Prefect #22500, dbt #9606, Airflow #71158, dbt docs #9781 ✓ |
+| In-flight upstream PRs | **3** — #70171, #10253, #22533 |
 | Portfolio | pipeline **v0.3.0** ✓, dqo ADR 0002 complete, pipeline ADR 0005 pins |
 | Writing | **4** Dev.to articles live — [article #4](https://dev.to/bobby_ray_581732c715283b2/contract-versioning-in-production-pipelines-registry-cli-and-run-history-13el) published Aug 2026 |
 | Honest gap | Merge count below 5+ target; review bandwidth is the bottleneck |
@@ -39,8 +39,8 @@
 |----|------------|------------|-----------|
 | [Airflow #71158](https://github.com/apache/airflow/pull/71158) | ~~Merge bump~~ | — | **Merged** ✓ |
 | [Airflow #70171](https://github.com/apache/airflow/pull/70171) | CI green; respond to review | Rebase if needed | Merged or closed gracefully |
-| [dbt docs #9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) | Review nudge | Second nudge if quiet | Merged |
-| [Meltano #10253](https://github.com/meltano/meltano/pull/10253) | Comment on [#6289](https://github.com/meltano/meltano/issues/6289) | Merge bump | Review or merge |
+| [dbt docs #9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) | ~~Review nudge~~ | — | **Merged** ✓ |
+| [Meltano #10253](https://github.com/meltano/meltano/pull/10253) | Relocate guide to complete tutorial ✓ | Merge bump | Review or merge |
 | [Prefect #22533](https://github.com/PrefectHQ/prefect/pull/22533) | Re-review request | Address any new feedback | Merged |
 
 **Rules:**
@@ -96,7 +96,7 @@ Only if upstream WIP ≤ 2:
 
 | Month | Upstream merges (cum.) | Articles | GSC | Notes |
 |-------|------------------------|----------|-----|-------|
-| Nov 2026 | 3 | 4 live | | #71158 merged; [pipeline v0.3.0](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0) shipped |
+| Nov 2026 | 4 | 4 live | | #9781 merged; #71158 merged; [pipeline v0.3.0](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0) shipped; Meltano #10253 relocated per review |
 | Dec 2026 | | 4 live | pending | Article #4 published early (Aug) |
 | Jan 2027 | | | | |
 
