@@ -12,7 +12,7 @@
 |--------|--------|
 | Upstream merges (cumulative) | **3** — Prefect #22500, dbt #9606, Airflow #71158 ✓ |
 | In-flight upstream PRs | **4** — #70171, #9781, #10253, #22533 |
-| Portfolio | pipeline v0.2.1, dqo ADR 0002 complete, pipeline ADR 0005 pins |
+| Portfolio | pipeline **v0.3.0** ✓, dqo ADR 0002 complete, pipeline ADR 0005 pins |
 | Writing | **4** Dev.to articles live — [article #4](https://dev.to/bobby_ray_581732c715283b2/contract-versioning-in-production-pipelines-registry-cli-and-run-history-13el) published Aug 2026 |
 | Honest gap | Merge count below 5+ target; review bandwidth is the bottleneck |
 
@@ -26,7 +26,7 @@
 | Open upstream PRs at once | **≤ 2** | Sustainable review load |
 | Technical writing | **4** Dev.to articles | Article #4 publishes the registry → history story |
 | Search visibility | GSC indexed | Articles #2–#4 + br413.github.io |
-| Portfolio release | **pipeline v0.3.0** (optional) | Quarantine metrics or ops export — only if upstream is stable |
+| Portfolio release | **pipeline v0.3.0** ✓ | [v0.3.0 release](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0) — quarantine metrics CLI |
 | Pull Shark | **Bronze maintained** | Silver is organic |
 
 ---
@@ -64,7 +64,7 @@ Only if upstream WIP ≤ 2:
 
 | Repo | Milestone | Deliverable |
 |------|-----------|-------------|
-| [production-data-pipeline](https://github.com/br413/production-data-pipeline) | v0.3.0 | Quarantine volume metrics in ops runbook or lightweight export |
+| [production-data-pipeline](https://github.com/br413/production-data-pipeline) | **v0.3.0** ✓ | [Quarantine volume metrics](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0) — CLI + ops runbook |
 | [data-quality-observability](https://github.com/br413/data-quality-observability) | Maintenance | Wire dqo into pipeline Airflow DAG post-dbt (stretch) |
 | [cloud-lakehouse-blueprint](https://github.com/br413/cloud-lakehouse-blueprint) | Maintenance | Sync ops runbook with v0.3 if shipped |
 
@@ -76,7 +76,7 @@ Only if upstream WIP ≤ 2:
 |-------|--------------|---------|
 | **November 2026** | Q4 closeout doc updated; **#71158 merged** ✓ | 4th cumulative merge |
 | **December 2026** | GSC submitted for all URLs; cover images | 4th cumulative merge |
-| **January 2027** | Honest Q1 retrospective; draft Feb–Apr plan | 5 cumulative merges; pipeline v0.3.0 |
+| **January 2027** | Honest Q1 retrospective; draft Feb–Apr plan | 5 cumulative merges; ~~pipeline v0.3.0~~ ✓ |
 
 ---
 
@@ -96,7 +96,7 @@ Only if upstream WIP ≤ 2:
 
 | Month | Upstream merges (cum.) | Articles | GSC | Notes |
 |-------|------------------------|----------|-----|-------|
-| Nov 2026 | 3 | 4 live | | #71158 merged |
+| Nov 2026 | 3 | 4 live | | #71158 merged; [pipeline v0.3.0](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0) shipped |
 | Dec 2026 | | 4 live | pending | Article #4 published early (Aug) |
 | Jan 2027 | | | | |
 
