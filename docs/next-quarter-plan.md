@@ -95,4 +95,6 @@ Draft ready: [articles/contract-versioning-production-pipelines.md](https://gith
 | Oct | | | | |
 | Nov | | | | |
 
+_Next phase: [nov-jan-contribution-plan.md](./nov-jan-contribution-plan.md) (Nov 2026 – Jan 2027)._
+
 _Update on the first Friday of each month._
