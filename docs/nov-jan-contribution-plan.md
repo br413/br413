@@ -10,7 +10,7 @@
 
 | Signal | Status |
 |--------|--------|
-| Upstream merges (cumulative) | **2** — Prefect #22500, dbt docs #9606 |
+| Upstream merges (cumulative) | **3** — Prefect #22500, dbt #9606, Airflow #71158 ✓ |
 | In-flight upstream PRs | **5** — see priority table below |
 | Portfolio | pipeline v0.2.1, dqo ADR 0002 complete, pipeline ADR 0005 pins |
 | Writing | 3 Dev.to articles live; **article #4 draft ready** |
@@ -87,7 +87,7 @@ Only if upstream WIP ≤ 2:
 
 | Month | Must achieve | Stretch |
 |-------|--------------|---------|
-| **November 2026** | Q4 closeout doc updated; #71158 merged or 30-day stale plan | 3rd cumulative merge |
+| **November 2026** | Q4 closeout doc updated; **#71158 merged** ✓ | 4th cumulative merge |
 | **December 2026** | Article #4 published; GSC submitted for all URLs | 4th cumulative merge |
 | **January 2027** | Honest Q1 retrospective; draft Feb–Apr plan | 5 cumulative merges; pipeline v0.3.0 |
 
@@ -109,7 +109,7 @@ Only if upstream WIP ≤ 2:
 
 | Month | Upstream merges (cum.) | Articles | GSC | Notes |
 |-------|------------------------|----------|-----|-------|
-| Nov 2026 | | | | |
+| Nov 2026 | 3 | article #4 draft on site | | Airflow #71158 merged |
 | Dec 2026 | | | | |
 | Jan 2027 | | | | |
 
