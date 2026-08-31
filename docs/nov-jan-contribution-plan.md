@@ -10,11 +10,11 @@
 
 | Signal | Status |
 |--------|--------|
-| Upstream merges (cumulative) | **4** — Prefect #22500, dbt #9606, Airflow #71158, dbt docs #9781 ✓ |
-| In-flight upstream PRs | **3** — #70171, #10253, #22533 |
+| Upstream merges (cumulative) | **5** — Prefect #22500, dbt #9606, Airflow #71158, dbt docs #9781, Meltano #10253 ✓ |
+| In-flight upstream PRs | **2** tracked — Airflow #70171, Prefect #22533 |
 | Portfolio | pipeline **v0.3.0** ✓, dqo ADR 0002 complete, pipeline ADR 0005 pins |
 | Writing | **4** Dev.to articles live — [article #4](https://dev.to/bobby_ray_581732c715283b2/contract-versioning-in-production-pipelines-registry-cli-and-run-history-13el) published Aug 2026 |
-| Honest gap | Merge count below 5+ target; review bandwidth is the bottleneck |
+| Honest gap | 5+ merge target met; remaining WIP is review bandwidth |
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Outcome | Target | Why |
 |---------|--------|-----|
-| Upstream merged PRs (cumulative) | **5+** | Closes the gap from the 90-day plan |
+| Upstream merged PRs (cumulative) | **5+** ✓ | Closes the gap from the 90-day plan |
 | Open upstream PRs at once | **≤ 2** | Sustainable review load |
 | Technical writing | **4** Dev.to articles | Article #4 publishes the registry → history story |
 | Search visibility | GSC indexed | Articles #2–#4 + br413.github.io |
@@ -40,7 +40,7 @@
 | [Airflow #71158](https://github.com/apache/airflow/pull/71158) | ~~Merge bump~~ | — | **Merged** ✓ |
 | [Airflow #70171](https://github.com/apache/airflow/pull/70171) | CI green; respond to review | Rebase if needed | Merged or closed gracefully |
 | [dbt docs #9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) | ~~Review nudge~~ | — | **Merged** ✓ |
-| [Meltano #10253](https://github.com/meltano/meltano/pull/10253) | Relocate guide to complete tutorial ✓ | Merge bump | Review or merge |
+| [Meltano #10253](https://github.com/meltano/meltano/pull/10253) | Relocate + `el` vs deprecated `elt` ✓ | — | **Merged** ✓ |
 | [Prefect #22533](https://github.com/PrefectHQ/prefect/pull/22533) | Re-review request | Address any new feedback | Merged |
 
 **Rules:**
@@ -76,7 +76,7 @@ Only if upstream WIP ≤ 2:
 |-------|--------------|---------|
 | **November 2026** | Q4 closeout doc updated; **#71158 merged** ✓ | 4th cumulative merge |
 | **December 2026** | GSC submitted for all URLs; cover images | 4th cumulative merge |
-| **January 2027** | Honest Q1 retrospective; draft Feb–Apr plan | 5 cumulative merges; ~~pipeline v0.3.0~~ ✓ |
+| **January 2027** | Honest Q1 retrospective; draft Feb–Apr plan | ~~5 cumulative merges~~ ✓; ~~pipeline v0.3.0~~ ✓ |
 
 ---
 
@@ -96,7 +96,7 @@ Only if upstream WIP ≤ 2:
 
 | Month | Upstream merges (cum.) | Articles | GSC | Notes |
 |-------|------------------------|----------|-----|-------|
-| Nov 2026 | 4 | 4 live | | #9781 merged; #71158 merged; [pipeline v0.3.0](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0) shipped; Meltano #10253 relocated per review |
+| Nov 2026 | **5** | 4 live | | [Meltano #10253](https://github.com/meltano/meltano/pull/10253) merged; #9781; #71158; [pipeline v0.3.0](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0) |
 | Dec 2026 | | 4 live | pending | Article #4 published early (Aug) |
 | Jan 2027 | | | | |
 
