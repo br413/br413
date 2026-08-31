@@ -65,7 +65,7 @@ Only if upstream WIP ≤ 2:
 | Repo | Milestone | Deliverable |
 |------|-----------|-------------|
 | [production-data-pipeline](https://github.com/br413/production-data-pipeline) | **v0.3.0** ✓ | [Quarantine volume metrics](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0) — CLI + ops runbook |
-| [data-quality-observability](https://github.com/br413/data-quality-observability) | Maintenance | Wire dqo into pipeline Airflow DAG post-dbt (stretch) |
+| [data-quality-observability](https://github.com/br413/data-quality-observability) | Maintenance | Wire dqo into pipeline Airflow DAG post-dbt ✓ |
 | [cloud-lakehouse-blueprint](https://github.com/br413/cloud-lakehouse-blueprint) | Maintenance | Sync ops runbook with v0.3 if shipped |
 
 ---
