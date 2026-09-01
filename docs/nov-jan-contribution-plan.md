@@ -59,7 +59,7 @@ Published: [Contract Versioning in Production Pipelines](https://dev.to/bobby_ra
 ### 3. Visibility cleanup (Dec–Jan)
 
 - [ ] Request GSC indexing (articles #2–#4 + br413.github.io)
-- [ ] Dev.to cover image for article #4 (and #2–#3 if missing)
+- [x] Dev.to cover image for article #4 (and #2–#3 if missing) — assets in [br413.github.io/assets](https://github.com/br413/br413.github.io/tree/main/assets); apply via `set-devto-cover.ps1` when `DEVTO_API_KEY` is set
 
 ### 4. Portfolio (Jan — optional)
 
