@@ -10,11 +10,11 @@
 
 | Signal | Status |
 |--------|--------|
-| Upstream merges (cumulative) | **5** — Prefect #22500, dbt #9606, Airflow #71158, dbt docs #9781, Meltano #10253 ✓ |
+| Upstream merges (cumulative) | **7** — Prefect #22500, dbt #9606, Airflow #71158, dbt docs #9781, Meltano #10253, InvenTree #12420, InvenTree #12474 ✓ |
 | In-flight upstream PRs | **2** tracked — Airflow #70171, Prefect #22533 |
 | Portfolio | pipeline **v0.3.0** ✓, dqo ADR 0002 complete, pipeline ADR 0005 pins |
 | Writing | **4** Dev.to articles live — [article #4](https://dev.to/bobby_ray_581732c715283b2/contract-versioning-in-production-pipelines-registry-cli-and-run-history-13el) published Aug 2026 |
-| Honest gap | 5+ merge target met; remaining WIP is review bandwidth |
+| Honest gap | 5+ merge target exceeded; remaining WIP is review bandwidth |
 
 ---
 
@@ -42,6 +42,9 @@
 | [dbt docs #9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) | ~~Review nudge~~ | — | **Merged** ✓ |
 | [Meltano #10253](https://github.com/meltano/meltano/pull/10253) | Relocate + `el` vs deprecated `elt` ✓ | — | **Merged** ✓ |
 | [Prefect #22533](https://github.com/PrefectHQ/prefect/pull/22533) | Re-review request | Address any new feedback | Merged |
+| [InvenTree #12420](https://github.com/inventree/InvenTree/pull/12420) | ~~Align healthcheck docs to #12124~~ | — | **Merged** ✓ |
+| [InvenTree #12474](https://github.com/inventree/InvenTree/pull/12474) | ~~Move admin access to db_admin.md~~ | — | **Merged** ✓ |
+| [InvenTree #12473](https://github.com/inventree/InvenTree/pull/12473) | ~~Blocked — no LDAP verifier~~ | — | **Closed** — no AD env to verify |
 
 **Rules:**
 
@@ -97,6 +100,7 @@ Only if upstream WIP ≤ 2:
 | Month | Upstream merges (cum.) | Articles | GSC | Notes |
 |-------|------------------------|----------|-----|-------|
 | Nov 2026 | **5** | 4 live | | [Meltano #10253](https://github.com/meltano/meltano/pull/10253) merged; #9781; #71158; [pipeline v0.3.0](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0) |
+| Sep 2026 | **7** | 4 live | | [InvenTree #12420](https://github.com/inventree/InvenTree/pull/12420), [#12474](https://github.com/inventree/InvenTree/pull/12474) merged Aug 31 |
 | Dec 2026 | | 4 live | pending | Article #4 published early (Aug) |
 | Jan 2027 | | | | |
 
