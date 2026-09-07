@@ -74,7 +74,7 @@ This is the **curated milestone timeline** behind my GitHub activity — portfol
 | 6 | InvenTree | [#12420](https://github.com/inventree/InvenTree/pull/12420) | Healthcheck docs aligned to deployment |
 | 7 | InvenTree | [#12474](https://github.com/inventree/InvenTree/pull/12474) | Admin access docs relocation |
 
-**In flight:** [Airflow #70171](https://github.com/apache/airflow/pull/70171), [Prefect #22533](https://github.com/PrefectHQ/prefect/pull/22533)
+**In flight:** [Airflow #70171](https://github.com/apache/airflow/pull/70171) (CI green), [Prefect #22533](https://github.com/PrefectHQ/prefect/pull/22533), [dbt docs #9960](https://github.com/dbt-labs/docs.getdbt.com/pull/9960), [dbt docs #9961](https://github.com/dbt-labs/docs.getdbt.com/pull/9961)
 
 ---
 
