@@ -12,7 +12,9 @@
 [![Terraform](https://img.shields.io/badge/Terraform-IaC-844FBA?style=flat-square&logo=terraform&logoColor=white)](https://www.terraform.io/)
 [![Portfolio site](https://img.shields.io/badge/Website-br413.github.io-1f6feb?style=flat-square&logo=githubpages&logoColor=white)](https://br413.github.io/)
 [![lakehouse-platform-starter](https://img.shields.io/github/v/release/br413/lakehouse-platform-starter?label=lakehouse--platform&style=flat-square&color=238636)](https://github.com/br413/lakehouse-platform-starter/releases/tag/v1.0.0)
-[![dbt docs](https://img.shields.io/badge/dbt%20docs-live-FF694B?style=flat-square&logo=dbt&logoColor=white)](https://br413.github.io/lakehouse-platform-starter/)
+[![Upstream merges](https://img.shields.io/badge/upstream%20merges-7-238636?style=flat-square)](docs/work-history.md)
+[![Dev.to articles](https://img.shields.io/badge/Dev.to%20articles-4-0a0a0a?style=flat-square&logo=devdotto&logoColor=white)](https://dev.to/bobby_ray_581732c715283b2)
+[![Portfolio releases](https://img.shields.io/badge/pipeline-v0.3.0-1f6feb?style=flat-square)](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0)
 
 </div>
 
@@ -62,7 +64,7 @@ Connected layers — not isolated demo repos:
 | Layer | Project | Focus |
 |-------|---------|-------|
 | **Flagship · Lakehouse** | [**lakehouse-platform-starter**](https://github.com/br413/lakehouse-platform-starter) | Iceberg + Trino + Cosmos dbt + Airflow + Marquez + GE · Docker stack · CI · hosted docs |
-| **Ingest & transform** | [**production-data-pipeline**](https://github.com/br413/production-data-pipeline) | Incremental API · PostgreSQL bronze · dbt · Airflow · quarantine/DLQ · [**v0.2.1**](https://github.com/br413/production-data-pipeline/releases/tag/v0.2.1) |
+| **Ingest & transform** | [**production-data-pipeline**](https://github.com/br413/production-data-pipeline) | Incremental API · PostgreSQL bronze · dbt · Airflow · quarantine/DLQ · [**v0.3.0**](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0) |
 | **Quality & observability** | [**data-quality-observability**](https://github.com/br413/data-quality-observability) | YAML contracts · schema/freshness checks · run history · alerts |
 | **Platform & governance** | [**cloud-lakehouse-blueprint**](https://github.com/br413/cloud-lakehouse-blueprint) | Medallion manifests · Terraform · IAM · lineage · CI validation |
 
@@ -82,13 +84,32 @@ Production operations knowledge contributed upstream:
 
 | Project | PR | Change |
 |---------|-----|--------|
-| [**dbt docs**](https://github.com/dbt-labs/docs.getdbt.com) | [#9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) | Fusion telemetry: use `duration_ms` for slowest-nodes ranking ([#9717](https://github.com/dbt-labs/docs.getdbt.com/issues/9717)) |
-| [**Meltano**](https://github.com/meltano/meltano) | [#10253](https://github.com/meltano/meltano/pull/10253) | `elt` vs `run` decision guide for replication workloads ([#6289](https://github.com/meltano/meltano/issues/6289)) |
+| [**dbt docs**](https://github.com/dbt-labs/docs.getdbt.com) | [#9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) ✓ merged | Fusion telemetry: use `duration_ms` for slowest-nodes ranking ([#9717](https://github.com/dbt-labs/docs.getdbt.com/issues/9717)) |
+| [**Meltano**](https://github.com/meltano/meltano) | [#10253](https://github.com/meltano/meltano/pull/10253) ✓ merged | `elt` vs `run` decision guide for replication workloads ([#6289](https://github.com/meltano/meltano/issues/6289)) |
 | [**Airflow**](https://github.com/apache/airflow) | [#71158](https://github.com/apache/airflow/pull/71158) ✓ merged | Clarify metrics vs traces `otel_*` config options ([#43366](https://github.com/apache/airflow/issues/43366)) |
 | [**Airflow**](https://github.com/apache/airflow) | [#70171](https://github.com/apache/airflow/pull/70171) | Surface dbt Cloud failure details in Airflow task logs |
 | [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22500](https://github.com/PrefectHQ/prefect/pull/22500) ✓ merged | Kubernetes readiness vs liveness probes |
 | [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22533](https://github.com/PrefectHQ/prefect/pull/22533) | Global concurrency limit setup docs (re-review requested) |
 | [**dbt docs**](https://github.com/dbt-labs/docs.getdbt.com) | [#9606](https://github.com/dbt-labs/docs.getdbt.com/pull/9606) ✓ merged | Prefixed custom schema troubleshooting |
+
+## Public work history
+
+**Since June 2026** — building a credible public data-engineering profile: portfolio releases, upstream merges, and technical writing in the open.
+
+| Period | Highlights |
+|--------|--------------|
+| **Sep 2026** | Dev.to cover assets; GSC checklist; **7 upstream merges** cumulative |
+| **Aug 2026** | **pipeline v0.3.0** · article #4 (contract versioning) · dbt + Meltano merges · dqo wired into Airflow DAG |
+| **Jul 2026** | **lakehouse-platform-starter v1.0.0** · articles #1–#3 · Prefect + dbt docs merges |
+| **Jun 2026** | Portfolio stack started · 90-day public commit plan · pipeline v0.1.0 |
+
+**Full timeline:** [docs/work-history.md](docs/work-history.md) · **Daily rhythm:** [contribution-log.md](docs/contribution-log.md) · **Activity graph:** [github.com/br413](https://github.com/br413?tab=overview&from=2026-06-01&to=2026-09-07)
+
+<div align="center">
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=br413&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=false)](https://github.com/br413)
+
+</div>
 
 ## Building in public
 
@@ -101,11 +122,12 @@ Production operations knowledge contributed upstream:
 | Architecture write-ups | [Dev.to](https://dev.to/bobby_ray_581732c715283b2) · [br413.github.io](https://br413.github.io/) |
 | 90-day contribution plan | [docs/90-day-contribution-plan.md](docs/90-day-contribution-plan.md) |
 | 90-day retrospective · next quarter | [Discussion #34](https://github.com/br413/br413/discussions/34) · [Q4 plan](docs/next-quarter-plan.md) · [Nov–Jan plan](docs/nov-jan-contribution-plan.md) |
+| Public work history (milestones) | [docs/work-history.md](docs/work-history.md) |
 | Daily activity log (automated) | [docs/contribution-log.md](docs/contribution-log.md) |
 
 Each flagship repo includes ADRs, pytest coverage, GitHub Actions CI, operations runbooks, and documented trade-offs — not toy demos.
 
-**Current focus (Nov 2026 – Jan 2027):** 3 upstream merges landed ([#71158](https://github.com/apache/airflow/pull/71158) ✓). Land #70171, #9781, #10253, #22533; publish article #4; GSC indexing. See [nov-jan-contribution-plan.md](docs/nov-jan-contribution-plan.md).
+**Current focus (Sep 2026 – Jan 2027):** Land [Airflow #70171](https://github.com/apache/airflow/pull/70171) and [Prefect #22533](https://github.com/PrefectHQ/prefect/pull/22533); GSC indexing for articles #2–#4 and portfolio site. See [nov-jan-contribution-plan.md](docs/nov-jan-contribution-plan.md).
 
 ## Writing
 
