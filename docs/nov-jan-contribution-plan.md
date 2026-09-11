@@ -10,8 +10,8 @@
 
 | Signal | Status |
 |--------|--------|
-| Upstream merges (cumulative) | **7** — Prefect #22500, dbt #9606, Airflow #71158, dbt docs #9781, Meltano #10253, InvenTree #12420, InvenTree #12474 ✓ |
-| In-flight upstream PRs | **2** tracked — Airflow #70171, Prefect #22533 |
+| In-flight upstream PRs | **3** tracked — Airflow #70171, dbt docs #9960, #9961 |
+| Upstream merges (cumulative) | **8** — + Prefect #22533 (Sep 11) |
 | Portfolio | pipeline **v0.3.0** ✓, dqo ADR 0002 complete, pipeline ADR 0005 pins |
 | Writing | **4** Dev.to articles live — [article #4](https://dev.to/bobby_ray_581732c715283b2/contract-versioning-in-production-pipelines-registry-cli-and-run-history-13el) published Aug 2026 |
 | Honest gap | 5+ merge target exceeded; remaining WIP is review bandwidth |
