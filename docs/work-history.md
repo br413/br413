@@ -10,7 +10,7 @@ This is the **curated milestone timeline** behind my GitHub activity — portfol
 
 | Signal | Count | Proof |
 |--------|------:|-------|
-| Upstream merges | **7** | Prefect, dbt docs (×2), Airflow, Meltano, InvenTree (×2) |
+| Upstream merges | **8** | Prefect (×2), dbt docs (×2), Airflow, Meltano, InvenTree (×2) |
 | Dev.to articles | **4** | [Cloud Data Platform Patterns](https://dev.to/bobby_ray_581732c715283b2) series |
 | Portfolio releases | **4 repos** | Lakehouse v1.0.0, pipeline v0.3.0, dqo versioning, blueprint ops |
 | Pinned stack | **6 repos** | Flagship lakehouse + pipeline + quality + platform + site + profile |
@@ -23,7 +23,10 @@ This is the **curated milestone timeline** behind my GitHub activity — portfol
 
 | Date | Milestone |
 |------|-----------|
-| **2026-09-01** | Dev.to cover assets shipped; GSC indexing checklist added; OSS retrospective updated to **7 upstream merges** |
+| **2026-09-11** | **Prefect #22533 merged** — global concurrency limit setup docs (**8 upstream merges**) |
+| **2026-09-11** | lakehouse-platform-starter: clone→demo quickstart (`scripts/demo.ps1`) |
+| **2026-09-07** | dbt docs PRs opened: [#9960](https://github.com/dbt-labs/docs.getdbt.com/pull/9960) (`bool` types), [#9961](https://github.com/dbt-labs/docs.getdbt.com/pull/9961) (Fusion behavior flags) |
+| **2026-09-01** | Dev.to cover assets shipped; GSC indexing checklist added |
 | **2026-09-01** | [Nov–Jan plan](./nov-jan-contribution-plan.md) synced — article #4 complete, InvenTree #12473 closed gracefully |
 
 ### August 2026
@@ -73,8 +76,9 @@ This is the **curated milestone timeline** behind my GitHub activity — portfol
 | 5 | Meltano | [#10253](https://github.com/meltano/meltano/pull/10253) | `elt` vs `run` decision guide |
 | 6 | InvenTree | [#12420](https://github.com/inventree/InvenTree/pull/12420) | Healthcheck docs aligned to deployment |
 | 7 | InvenTree | [#12474](https://github.com/inventree/InvenTree/pull/12474) | Admin access docs relocation |
+| 8 | Prefect | [#22533](https://github.com/PrefectHQ/prefect/pull/22533) | Global concurrency limit setup docs |
 
-**In flight:** [Airflow #70171](https://github.com/apache/airflow/pull/70171) (CI green), [Prefect #22533](https://github.com/PrefectHQ/prefect/pull/22533), [dbt docs #9960](https://github.com/dbt-labs/docs.getdbt.com/pull/9960), [dbt docs #9961](https://github.com/dbt-labs/docs.getdbt.com/pull/9961)
+**In flight:** [Airflow #70171](https://github.com/apache/airflow/pull/70171), [dbt docs #9960](https://github.com/dbt-labs/docs.getdbt.com/pull/9960), [dbt docs #9961](https://github.com/dbt-labs/docs.getdbt.com/pull/9961)
 
 ---
 
@@ -84,7 +88,7 @@ This is the **curated milestone timeline** behind my GitHub activity — portfol
 Jun 2026   production-data-pipeline v0.1.0  ─┐
 Jul 2026   lakehouse-platform-starter v1.0.0  ├── connected platform stack
 Aug 2026   pipeline v0.2.1 → v0.3.0 + dqo versioning  │
-           4 Dev.to articles + 7 upstream merges  ─┘
+           4 Dev.to articles + 8 upstream merges  ─┘
 ```
 
 ---

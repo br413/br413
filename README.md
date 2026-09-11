@@ -12,7 +12,7 @@
 [![Terraform](https://img.shields.io/badge/Terraform-IaC-844FBA?style=flat-square&logo=terraform&logoColor=white)](https://www.terraform.io/)
 [![Portfolio site](https://img.shields.io/badge/Website-br413.github.io-1f6feb?style=flat-square&logo=githubpages&logoColor=white)](https://br413.github.io/)
 [![lakehouse-platform-starter](https://img.shields.io/github/v/release/br413/lakehouse-platform-starter?label=lakehouse--platform&style=flat-square&color=238636)](https://github.com/br413/lakehouse-platform-starter/releases/tag/v1.0.0)
-[![Upstream merges](https://img.shields.io/badge/upstream%20merges-7-238636?style=flat-square)](docs/work-history.md)
+[![Upstream merges](https://img.shields.io/badge/upstream%20merges-8-238636?style=flat-square)](docs/work-history.md)
 [![Dev.to articles](https://img.shields.io/badge/Dev.to%20articles-4-0a0a0a?style=flat-square&logo=devdotto&logoColor=white)](https://dev.to/bobby_ray_581732c715283b2)
 [![Portfolio releases](https://img.shields.io/badge/pipeline-v0.3.0-1f6feb?style=flat-square)](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0)
 
@@ -91,7 +91,7 @@ Production operations knowledge contributed upstream:
 | [**Airflow**](https://github.com/apache/airflow) | [#71158](https://github.com/apache/airflow/pull/71158) ✓ merged | Clarify metrics vs traces `otel_*` config options ([#43366](https://github.com/apache/airflow/issues/43366)) |
 | [**Airflow**](https://github.com/apache/airflow) | [#70171](https://github.com/apache/airflow/pull/70171) | Surface dbt Cloud failure details in Airflow task logs (CI green) |
 | [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22500](https://github.com/PrefectHQ/prefect/pull/22500) ✓ merged | Kubernetes readiness vs liveness probes |
-| [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22533](https://github.com/PrefectHQ/prefect/pull/22533) | Global concurrency limit setup docs (re-review requested) |
+| [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22533](https://github.com/PrefectHQ/prefect/pull/22533) ✓ merged | Global concurrency limit setup docs |
 | [**dbt docs**](https://github.com/dbt-labs/docs.getdbt.com) | [#9606](https://github.com/dbt-labs/docs.getdbt.com/pull/9606) ✓ merged | Prefixed custom schema troubleshooting |
 
 ## Public work history
@@ -100,7 +100,7 @@ Production operations knowledge contributed upstream:
 
 | Period | Highlights |
 |--------|--------------|
-| **Sep 2026** | Dev.to cover assets; GSC checklist; **7 upstream merges**; Airflow #70171 CI green; dbt docs #9960 + #9961 |
+| **Sep 2026** | **Prefect #22533 merged** · **8 upstream merges**; Airflow #70171 rebased; dbt docs #9960 + #9961 open |
 | **Aug 2026** | **pipeline v0.3.0** · article #4 (contract versioning) · dbt + Meltano merges · dqo wired into Airflow DAG |
 | **Jul 2026** | **lakehouse-platform-starter v1.0.0** · articles #1–#3 · Prefect + dbt docs merges |
 | **Jun 2026** | Portfolio stack started · 90-day public commit plan · pipeline v0.1.0 |
@@ -129,7 +129,7 @@ Production operations knowledge contributed upstream:
 
 Each flagship repo includes ADRs, pytest coverage, GitHub Actions CI, operations runbooks, and documented trade-offs — not toy demos.
 
-**Current focus (Sep 2026 – Jan 2027):** Land [Airflow #70171](https://github.com/apache/airflow/pull/70171), [Prefect #22533](https://github.com/PrefectHQ/prefect/pull/22533), and dbt docs [#9960](https://github.com/dbt-labs/docs.getdbt.com/pull/9960) / [#9961](https://github.com/dbt-labs/docs.getdbt.com/pull/9961); GSC indexing for articles #2–#4 and portfolio site. See [nov-jan-contribution-plan.md](docs/nov-jan-contribution-plan.md).
+**Current focus (Sep 2026 – Jan 2027):** Land [Airflow #70171](https://github.com/apache/airflow/pull/70171) and dbt docs [#9960](https://github.com/dbt-labs/docs.getdbt.com/pull/9960) / [#9961](https://github.com/dbt-labs/docs.getdbt.com/pull/9961); GSC indexing for articles #2–#4 and portfolio site. See [nov-jan-contribution-plan.md](docs/nov-jan-contribution-plan.md).
 
 ## Writing
 
