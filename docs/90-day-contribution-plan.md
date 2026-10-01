@@ -1,5 +1,8 @@
 # 90-day contribution plan
 
+> Historical planning/draft snapshot. PR statuses and counts below reflect the original writing context, not current status. Airflow #70171 merged September 14, 2026; dbt docs #9960 merged September 29, 2026. See the [verified contribution record](work-history.md) for statuses checked September 30, 2026.
+
+
 **Goal:** Build a credible, honest public data-engineering profile through consistent activity and upstream OSS merges — not backdated history.
 
 **Started:** June 2026 · **Building in public since:** 2026  

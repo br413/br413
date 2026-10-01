@@ -2,6 +2,8 @@
 
 **Follows:** [90-day-contribution-plan.md](./90-day-contribution-plan.md) · [90-day-retrospective.md](./90-day-retrospective.md)
 
+**Status checked September 30, 2026:** Airflow #70171, #71158, dbt docs #9781, #9960, Meltano #10253, and Prefect #22533 are merged. The remaining tracked open PR is [dbt docs #9961](https://github.com/dbt-labs/docs.getdbt.com/pull/9961). See the [verified contribution record](work-history.md).
+
 **Theme:** Land in-flight upstream work, reduce WIP, deepen portfolio quality — not volume for badges.
 
 ---
@@ -10,7 +12,7 @@
 
 | Outcome | Target | Why |
 |---------|--------|-----|
-| Upstream merged PRs (cumulative) | **5+** | Close the gap from 2 → 5 with existing in-flight PRs first |
+| Upstream merged PRs (cumulative) | **5+** | Met; retain as the original target and track reviewed work |
 | Open upstream PRs at once | **≤ 2** | Review bandwidth is the bottleneck, not ideas |
 | Portfolio milestone | **dqo v0.2** or pipeline **v0.3** | One release that closes an ADR phase |
 | Technical writing | **1** focused article | Platform integration or contract versioning in production |
@@ -24,11 +26,13 @@
 
 | PR | Action | Success criteria |
 |----|--------|------------------|
-| [Airflow #71158](https://github.com/apache/airflow/pull/71158) | Merge bump every 2 weeks | Merged |
-| [Airflow #70171](https://github.com/apache/airflow/pull/70171) | Keep CI green after newsfragment fix | Merged or maintainer feedback addressed |
-| [dbt docs #9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) | Review nudge monthly | Merged |
-| [Meltano #10253](https://github.com/meltano/meltano/pull/10253) | Link on [#6289](https://github.com/meltano/meltano/issues/6289) when quiet | Review or merge |
-| [Prefect #22533](https://github.com/PrefectHQ/prefect/pull/22533) | Re-review after P2 fixes | Merged |
+| [Airflow #71158](https://github.com/apache/airflow/pull/71158) | Complete — merged August 25, 2026 | Merged |
+| [Airflow #70171](https://github.com/apache/airflow/pull/70171) | Complete — merged September 14, 2026 | Merged; implementation and unit tests |
+| [dbt docs #9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) | Complete — merged August 27, 2026 | Merged |
+| [Meltano #10253](https://github.com/meltano/meltano/pull/10253) | Complete — merged August 27, 2026 | Merged |
+| [Prefect #22533](https://github.com/PrefectHQ/prefect/pull/22533) | Complete — merged September 11, 2026 | Merged |
+| [dbt docs #9960](https://github.com/dbt-labs/docs.getdbt.com/pull/9960) | Complete — merged September 29, 2026 | Merged |
+| [dbt docs #9961](https://github.com/dbt-labs/docs.getdbt.com/pull/9961) | Respond to review when available | Merged or closed with a documented reason |
 
 **Rule:** No new upstream PR until at least one of the above merges.
 
@@ -71,8 +75,8 @@ Draft ready: [articles/contract-versioning-production-pipelines.md](https://gith
 | Month | Check |
 |-------|-------|
 | **September** | #71158 merged; dqo phase 3 merged ([#14](https://github.com/br413/data-quality-observability/pull/14)); phase 4 CI guards ([#15](https://github.com/br413/data-quality-observability/pull/15)) |
-| **October** | 2nd upstream merge landed (cumulative 4+); GSC complete |
-| **November** | 5th cumulative merge OR honest closeout if blocked; next plan draft |
+| **October** | Respond to #9961 review; check indexing status |
+| **November** | Review portfolio maintenance backlog; write closeout and next plan |
 
 ---
 
@@ -91,7 +95,7 @@ Draft ready: [articles/contract-versioning-production-pipelines.md](https://gith
 
 | Month | Upstream merges | Portfolio releases | Articles | Notes |
 |-------|-----------------|-------------------|----------|-------|
-| Sep | | dqo ADR 0002 ph. 3–5; pipeline ADR 0005 | article #4 draft | ADR 0002 complete; [pipeline #37](https://github.com/br413/production-data-pipeline/pull/37) merged |
+| Sep | | dqo ADR 0002 ph. 3–5; pipeline ADR 0005 | article #4 published | ADR 0002 complete; [pipeline #37](https://github.com/br413/production-data-pipeline/pull/37) merged |
 | Oct | | | | |
 | Nov | | | | |
 

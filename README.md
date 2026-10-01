@@ -1,159 +1,52 @@
-<div align="center">
-
 # br413 · Senior Data Engineer & Data Architect
 
-**Data platforms where pipelines fail loudly — not silently**
+I build data pipelines and lakehouse platforms with **Python, SQL, Airflow, dbt, and Terraform**, focusing on recovery, data quality, and maintainability.
 
-[![GitHub followers](https://img.shields.io/github/followers/br413?style=flat-square&logo=github&label=Follow)](https://github.com/br413)
-[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![dbt](https://img.shields.io/badge/dbt-transformations-FF694B?style=flat-square&logo=dbt&logoColor=white)](https://www.getdbt.com/)
-[![Airflow](https://img.shields.io/badge/Apache-Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)](https://airflow.apache.org/)
-[![Iceberg](https://img.shields.io/badge/Apache-Iceberg-0078D4?style=flat-square)](https://iceberg.apache.org/)
-[![Terraform](https://img.shields.io/badge/Terraform-IaC-844FBA?style=flat-square&logo=terraform&logoColor=white)](https://www.terraform.io/)
-[![Portfolio site](https://img.shields.io/badge/Website-br413.github.io-1f6feb?style=flat-square&logo=githubpages&logoColor=white)](https://br413.github.io/)
-[![lakehouse-platform-starter](https://img.shields.io/github/v/release/br413/lakehouse-platform-starter?label=lakehouse--platform&style=flat-square&color=238636)](https://github.com/br413/lakehouse-platform-starter/releases/tag/v1.0.0)
-[![Upstream merges](https://img.shields.io/badge/upstream%20merges-8-238636?style=flat-square)](docs/work-history.md)
-[![Dev.to articles](https://img.shields.io/badge/Dev.to%20articles-4-0a0a0a?style=flat-square&logo=devdotto&logoColor=white)](https://br413.github.io/#writing)
-[![Portfolio releases](https://img.shields.io/badge/pipeline-v0.3.0-1f6feb?style=flat-square)](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0)
+My work addresses interrupted ingestion, duplicate records, schema drift, and difficult operational handoffs through checkpoint recovery, idempotent loads, data contracts, and documented design decisions.
 
-</div>
+**Senior data engineering roles · Long-term data platform maintenance**
 
----
+[Email: br198064@gmail.com](mailto:br198064@gmail.com) · [Portfolio](https://br413.github.io/) · [Selected Airflow implementation](https://github.com/apache/airflow/pull/70171)
 
-## About
+## Selected evidence
 
-I design and build **cloud data platforms** that survive partial failures, schema drift, and operational scale — incremental ingestion with checkpoint recovery, contract-driven data quality, medallion lakehouse patterns, and CI-validated platform automation on **AWS**, **Azure**, **Databricks**, and **Snowflake**.
+- **Reviewed upstream implementation:** [Airflow #70171](https://github.com/apache/airflow/pull/70171), merged **September 14, 2026**. Added dbt Cloud failure details to task logs across the hook, operator, and sensor, with unit tests and maintainer review.
+- **Runnable lakehouse reference:** [lakehouse-platform-starter](https://github.com/br413/lakehouse-platform-starter) — Airflow + Cosmos, dbt, Iceberg, Trino, OpenLineage, and Great Expectations. [Quick start](https://github.com/br413/lakehouse-platform-starter/blob/main/docs/QUICKSTART.md) · [Design decisions](https://github.com/br413/lakehouse-platform-starter/tree/main/docs/decisions) · [Backfill runbook](https://github.com/br413/lakehouse-platform-starter/blob/main/docs/runbooks/backfill-safety.md).
 
-Senior data engineering, to me, is **judgment under constraint**: intentional trade-offs, failure-aware design, and systems the next team can actually operate.
+## Portfolio: problems, implementation, and review paths
 
-```text
-Design for failure.
-Automate repeatable work.
-Measure data quality.
-Document decisions.
-Keep systems understandable.
-```
+These are public reference implementations and demonstrations. They show engineering decisions and reproducible behavior; they do not establish client deployments, production scale, or customer outcomes. Prior employer work lived in private GitLab/Azure DevOps; this portfolio is not a full employment history.
 
-## What senior looks like in my work
+| Project | Problem addressed | Evidence to review |
+| --- | --- | --- |
+| [lakehouse-platform-starter](https://github.com/br413/lakehouse-platform-starter) | Reproducible lakehouse setup and safe backfills | DuckDB and Trino/Iceberg paths, dbt tests, lineage, [walkthrough](https://github.com/br413/lakehouse-platform-starter/blob/main/docs/interview-walkthrough.md) |
+| [production-data-pipeline](https://github.com/br413/production-data-pipeline) | Interrupted ingestion, duplicate delivery, bad records | Checkpoints, PostgreSQL landing, quarantine, dbt, [operations runbook](https://github.com/br413/production-data-pipeline/blob/main/docs/operations.md); production Airflow deployment is outside the demo scope |
+| [data-quality-observability](https://github.com/br413/data-quality-observability) | Invalid CSV deliveries and hard-to-inspect quality failures | YAML contracts, deterministic broken-to-fixed demo, offline HTML/JSON reports, SQLite history |
+| [cloud-lakehouse-blueprint](https://github.com/br413/cloud-lakehouse-blueprint) | Reviewing storage, access, and governance before deployment | Manifests, S3/IAM/Glue Terraform modules, lineage, CI validation; live AWS deployment is outside the demo scope |
 
-| Signal | How it shows up |
-|--------|-----------------|
-| **System design** | Architecture docs, ADRs, and clear boundaries between ingestion, transform, quality, and platform layers |
-| **Failure handling** | Checkpoint recovery, idempotent loads, quality gates before bronze, operations runbooks |
-| **Operational proof** | pytest, GitHub Actions CI, smoke tests, alert routing, and honest trade-off documentation |
+## Data platform maintenance
 
-## Flagship project
+For teams seeking ongoing platform ownership, the maintenance work I can discuss includes:
 
-<table>
-<tr>
-<td width="120"><strong>⭐ Lakehouse</strong></td>
-<td>
+- **Pipeline reliability:** investigate failed runs, repair ingestion and dbt models, plan recovery and backfills, and address recurring failures.
+- **Quality and observability:** maintain data contracts and schema checks, review run history, and tune actionable alerts.
+- **Safe changes and handoffs:** review dependency upgrades and Terraform changes, strengthen CI checks, and keep runbooks and architecture decisions current.
 
-**[lakehouse-platform-starter](https://github.com/br413/lakehouse-platform-starter)** — Runnable reference architecture: **Airflow + Cosmos** · **dbt** · **Iceberg** · **Trino** · **OpenLineage** · **Great Expectations**
+An engagement starts by agreeing on the platform, ownership boundaries, backlog, and support expectations. Scope and response arrangements are agreed per engagement.
 
-[`make pipeline`](https://github.com/br413/lakehouse-platform-starter#quick-start) · [Live dbt docs](https://br413.github.io/lakehouse-platform-starter/) · [Interview walkthrough](https://github.com/br413/lakehouse-platform-starter/blob/main/docs/interview-walkthrough.md) · [**v1.0.0**](https://github.com/br413/lakehouse-platform-starter/releases/tag/v1.0.0)
+## Selected upstream documentation
 
-</td>
-</tr>
-</table>
+| Contribution | Status | Operational detail |
+| --- | --- | --- |
+| [Airflow #71158](https://github.com/apache/airflow/pull/71158) | Merged | Distinguish metrics and traces in `otel_*` configuration |
+| [Prefect #22533](https://github.com/PrefectHQ/prefect/pull/22533) | Merged | Global concurrency limit setup |
+| [dbt docs #9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) | Merged | Use `duration_ms` for Fusion slowest-node ranking |
+| [dbt docs #9960](https://github.com/dbt-labs/docs.getdbt.com/pull/9960) | Merged September 29, 2026 | Correct macro argument type to `bool` |
 
-## Platform stack (portfolio)
+Statuses verified September 30, 2026. [Contribution record and current work](docs/work-history.md).
 
-Connected layers — not isolated demo repos:
+## Writing and contact
 
-| Layer | Project | Focus |
-|-------|---------|-------|
-| **Flagship · Lakehouse** | [**lakehouse-platform-starter**](https://github.com/br413/lakehouse-platform-starter) | Iceberg + Trino + Cosmos dbt + Airflow + Marquez + GE · Docker stack · CI · hosted docs |
-| **Ingest & transform** | [**production-data-pipeline**](https://github.com/br413/production-data-pipeline) | Incremental API · PostgreSQL bronze · dbt · Airflow · quarantine/DLQ · [**v0.3.0**](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0) |
-| **Quality & observability** | [**data-quality-observability**](https://github.com/br413/data-quality-observability) | YAML contracts · schema/freshness checks · run history · alerts |
-| **Platform & governance** | [**cloud-lakehouse-blueprint**](https://github.com/br413/cloud-lakehouse-blueprint) | Medallion manifests · Terraform · IAM · lineage · CI validation |
+[Incremental loading and dbt](https://github.com/br413/br413.github.io/blob/main/articles/building-production-data-pipeline.md) · [Data quality contracts](https://github.com/br413/br413.github.io/blob/main/articles/data-quality-contracts-production-pipelines.md) · [Contract versioning](https://github.com/br413/br413.github.io/blob/main/articles/contract-versioning-production-pipelines.md)
 
-## Expertise
-
-| Domain | Technologies & practices |
-|--------|--------------------------|
-| **Data engineering** | Python · SQL · incremental ingestion · ETL/ELT · API pipelines · checkpointing · idempotent loads |
-| **Data architecture** | Medallion lakehouse · Iceberg · bronze/silver/gold · lineage · governance · cost modeling |
-| **Orchestration** | Apache Airflow · Cosmos · dbt · Prefect · Spark |
-| **Cloud platforms** | AWS · Azure · Databricks · Snowflake |
-| **Quality & observability** | Data contracts · Great Expectations · OpenLineage · schema validation · CI/CD |
-
-## Open-source contributions
-
-Production operations knowledge contributed upstream:
-
-| Project | PR | Change |
-|---------|-----|--------|
-| [**dbt docs**](https://github.com/dbt-labs/docs.getdbt.com) | [#9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) ✓ merged | Fusion telemetry: use `duration_ms` for slowest-nodes ranking ([#9717](https://github.com/dbt-labs/docs.getdbt.com/issues/9717)) |
-| [**dbt docs**](https://github.com/dbt-labs/docs.getdbt.com) | [#9960](https://github.com/dbt-labs/docs.getdbt.com/pull/9960) | Macro arg types: `bool` not `boolean` ([#9891](https://github.com/dbt-labs/docs.getdbt.com/issues/9891)) |
-| [**dbt docs**](https://github.com/dbt-labs/docs.getdbt.com) | [#9961](https://github.com/dbt-labs/docs.getdbt.com/pull/9961) | Clarify which behavior flags Fusion removes ([#8972](https://github.com/dbt-labs/docs.getdbt.com/issues/8972)) |
-| [**Meltano**](https://github.com/meltano/meltano) | [#10253](https://github.com/meltano/meltano/pull/10253) ✓ merged | `elt` vs `run` decision guide for replication workloads ([#6289](https://github.com/meltano/meltano/issues/6289)) |
-| [**Airflow**](https://github.com/apache/airflow) | [#71158](https://github.com/apache/airflow/pull/71158) ✓ merged | Clarify metrics vs traces `otel_*` config options ([#43366](https://github.com/apache/airflow/issues/43366)) |
-| [**Airflow**](https://github.com/apache/airflow) | [#70171](https://github.com/apache/airflow/pull/70171) | Surface dbt Cloud failure details in Airflow task logs (CI green) |
-| [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22500](https://github.com/PrefectHQ/prefect/pull/22500) ✓ merged | Kubernetes readiness vs liveness probes |
-| [**Prefect**](https://github.com/PrefectHQ/prefect) | [#22533](https://github.com/PrefectHQ/prefect/pull/22533) ✓ merged | Global concurrency limit setup docs |
-| [**dbt docs**](https://github.com/dbt-labs/docs.getdbt.com) | [#9606](https://github.com/dbt-labs/docs.getdbt.com/pull/9606) ✓ merged | Prefixed custom schema troubleshooting |
-
-## Public work history
-
-**Since June 2026** — building a credible public data-engineering profile: portfolio releases, upstream merges, and technical writing in the open.
-
-| Period | Highlights |
-|--------|--------------|
-| **Sep 2026** | **Prefect #22533 merged** · **8 upstream merges**; Airflow #70171 rebased; dbt docs #9960 + #9961 open |
-| **Aug 2026** | **pipeline v0.3.0** · article #4 (contract versioning) · dbt + Meltano merges · dqo wired into Airflow DAG |
-| **Jul 2026** | **lakehouse-platform-starter v1.0.0** · articles #1–#3 · Prefect + dbt docs merges |
-| **Jun 2026** | Portfolio stack started · 90-day public commit plan · pipeline v0.1.0 |
-
-**Full timeline:** [docs/work-history.md](docs/work-history.md) · **Daily rhythm:** [contribution-log.md](docs/contribution-log.md) · **Activity graph:** [github.com/br413](https://github.com/br413?tab=overview&from=2026-06-01&to=2026-09-07)
-
-<div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=br413&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=false)](https://github.com/br413)
-
-</div>
-
-## Building in public
-
-**Since 2026** — I publish production-style data platform work in the open: portfolio repos, upstream contributions, and technical writing. Prior employer work lived in private GitLab/Azure DevOps; this GitHub profile is my **public proof of craft**, not a full career timeline.
-
-| What you'll find here | Where |
-|----------------------|-------|
-| Lakehouse + pipeline + quality + platform stack | Pinned repos |
-| Upstream OSS (Prefect, dbt, Airflow) | [OSS table above](#open-source-contributions) |
-| Architecture write-ups | [Writing](https://br413.github.io/#writing) · [br413.github.io](https://br413.github.io/) |
-| 90-day contribution plan | [docs/90-day-contribution-plan.md](docs/90-day-contribution-plan.md) |
-| 90-day retrospective · next quarter | [Discussion #34](https://github.com/br413/br413/discussions/34) · [Q4 plan](docs/next-quarter-plan.md) · [Nov–Jan plan](docs/nov-jan-contribution-plan.md) |
-| Public work history (milestones) | [docs/work-history.md](docs/work-history.md) |
-| Daily activity log (automated) | [docs/contribution-log.md](docs/contribution-log.md) |
-
-Each flagship repo includes ADRs, pytest coverage, GitHub Actions CI, operations runbooks, and documented trade-offs — not toy demos.
-
-**Current focus (Sep 2026 – Jan 2027):** Land [Airflow #70171](https://github.com/apache/airflow/pull/70171) and dbt docs [#9960](https://github.com/dbt-labs/docs.getdbt.com/pull/9960) / [#9961](https://github.com/dbt-labs/docs.getdbt.com/pull/9961); GSC indexing for articles #2–#4 and portfolio site. See [nov-jan-contribution-plan.md](docs/nov-jan-contribution-plan.md).
-
-## Writing
-
-| Article | Topic |
-|---------|-------|
-| [**Building a Production Data Pipeline with Incremental Loading and dbt**](https://github.com/br413/br413.github.io/blob/main/articles/building-production-data-pipeline.md) | Incremental checkpoints, idempotent loads, medallion layering, Airflow orchestration, failure modes |
-| [**Data Quality Contracts in Production Pipelines (Without a Separate Platform Team)**](https://github.com/br413/br413.github.io/blob/main/articles/data-quality-contracts-production-pipelines.md) | Row-level quarantine at ingestion, YAML dataset contracts, alert routing, CI enforcement |
-| [**What I Learned Contributing to Prefect, dbt, and Airflow**](https://github.com/br413/br413.github.io/blob/main/articles/oss-upstream-retrospective.md) | Honest OSS retrospective — three merges, four open PRs, building in public |
-| [**Contract Versioning in Production Pipelines**](https://github.com/br413/br413.github.io/blob/main/articles/contract-versioning-production-pipelines.md) | Registry → CLI → run history → CI guards — ADR 0002 stack |
-
-More at [**br413.github.io**](https://br413.github.io/) · series: *Cloud Data Platform Patterns*
-
-## Collaboration
-
-Open to senior data engineering roles, data platform architecture discussions, and technical collaboration.
-
-[Telegram: @CtrlAltBomb](https://t.me/CtrlAltBomb) · [Gmail: br198064@gmail.com](mailto:br198064@gmail.com) · [WhatsApp: +1 (229) 742 1656](https://wa.me/12297421656)
-
----
-
-<div align="center">
-
-**Website:** [br413.github.io](https://br413.github.io/) · **Flagship:** [lakehouse-platform-starter](https://github.com/br413/lakehouse-platform-starter) · **dbt docs:** [live](https://br413.github.io/lakehouse-platform-starter/)
-
-`data engineering` · `lakehouse` · `dbt` · `Airflow` · `Iceberg` · `Trino` · `OpenLineage` · `Terraform`
-
-</div>
+For hiring or maintenance inquiries: **[br198064@gmail.com](mailto:br198064@gmail.com)**. Also available via [Telegram](https://t.me/CtrlAltBomb) or [WhatsApp](https://wa.me/12297421656).

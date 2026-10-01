@@ -1,5 +1,8 @@
 # 90-day contribution retrospective (June–August 2026)
 
+> Historical planning/draft snapshot. PR statuses and counts below reflect the original writing context, not current status. Airflow #70171 merged September 14, 2026; dbt docs #9960 merged September 29, 2026. See the [verified contribution record](work-history.md) for statuses checked September 30, 2026.
+
+
 **Author:** [br413](https://github.com/br413) · **Plan:** [90-day-contribution-plan.md](https://github.com/br413/br413/blob/main/docs/90-day-contribution-plan.md)
 
 This is the closeout scorecard for the first ninety-day push to build a credible, honest public data-engineering profile. For OSS-specific lessons (what merged, what stalled, weekly rhythm), see the Dev.to article [*What I Learned Contributing to Prefect, dbt, and Airflow*](https://github.com/br413/br413.github.io/blob/main/articles/oss-upstream-retrospective.md).
@@ -26,7 +29,7 @@ This is the closeout scorecard for the first ninety-day push to build a credible
 
 | Repo | Highlights |
 |------|------------|
-| [production-data-pipeline](https://github.com/br413/production-data-pipeline) | v0.2.0 → v0.2.1, quarantine/DLQ ([ADR 0004](https://github.com/br413/production-data-pipeline/blob/main/docs/adr/0004-dead-letter-quarantine.md)), architecture diagram, full-stack demo |
+| [production-data-pipeline](https://github.com/br413/production-data-pipeline) | v0.2.0 → v0.2.1, quarantine/DLQ ([ADR 0004](https://github.com/br413/production-data-pipeline/blob/main/docs/adr/0004-failed-record-quarantine.md)), architecture diagram, full-stack demo |
 | [data-quality-observability](https://github.com/br413/data-quality-observability) | Webhook integration tests, [ADR 0002](https://github.com/br413/data-quality-observability/blob/main/docs/adr/0002-schema-registry-and-contract-versioning.md) schema registry, CLI `--contract orders` resolution |
 | [cloud-lakehouse-blueprint](https://github.com/br413/cloud-lakehouse-blueprint) | Ops runbook, cost notes, platform-stack cross-links |
 | [lakehouse-platform-starter](https://github.com/br413/lakehouse-platform-starter) | Flagship reference architecture (pinned) |
