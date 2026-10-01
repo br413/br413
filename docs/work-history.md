@@ -11,7 +11,7 @@ This is the **curated milestone timeline** behind my GitHub activity — portfol
 | Signal | Count | Proof |
 |--------|------:|-------|
 | Upstream merges | **8** | Prefect (×2), dbt docs (×2), Airflow, Meltano, InvenTree (×2) |
-| Dev.to articles | **4** | [Cloud Data Platform Patterns](https://dev.to/bobby_ray_581732c715283b2) series |
+| Dev.to articles | **4** | [Cloud Data Platform Patterns](https://br413.github.io/#writing) series |
 | Portfolio releases | **4 repos** | Lakehouse v1.0.0, pipeline v0.3.0, dqo versioning, blueprint ops |
 | Pinned stack | **6 repos** | Flagship lakehouse + pipeline + quality + platform + site + profile |
 
@@ -35,13 +35,13 @@ This is the **curated milestone timeline** behind my GitHub activity — portfol
 |------|-----------|
 | **2026-08-31** | [production-data-pipeline](https://github.com/br413/production-data-pipeline): dqo contract checks wired into Airflow DAG after dbt |
 | **2026-08-27** | **pipeline v0.3.0** — quarantine volume metrics CLI ([release](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0)) |
-| **2026-08-27** | **Article #4 published** — [Contract Versioning in Production Pipelines](https://dev.to/bobby_ray_581732c715283b2/contract-versioning-in-production-pipelines-registry-cli-and-run-history-13el) |
+| **2026-08-27** | **Article #4 published** — [Contract Versioning in Production Pipelines](https://github.com/br413/br413.github.io/blob/main/articles/contract-versioning-production-pipelines.md) |
 | **2026-08-27** | Upstream merges: **dbt docs #9781**, **Meltano #10253** |
 | **2026-08-27** | [data-quality-observability](https://github.com/br413/data-quality-observability): ADR 0002 schema registry + contract versioning stack |
 | **2026-08-27** | [cloud-lakehouse-blueprint](https://github.com/br413/cloud-lakehouse-blueprint): Writing section with all four Dev.to articles |
 | **2026-08-XX** | **Airflow #71158 merged** — metrics vs traces `otel_*` config clarity |
-| **2026-08-XX** | **Article #3 published** — [OSS retrospective](https://dev.to/bobby_ray_581732c715283b2/what-i-learned-contributing-to-prefect-dbt-and-airflow-an-honest-oss-retrospective-1ki8) |
-| **2026-08-XX** | **Article #2 published** — [Data quality contracts](https://dev.to/bobby_ray_581732c715283b2/data-quality-contracts-in-production-pipelines-without-a-separate-platform-team-f3) |
+| **2026-08-XX** | **Article #3 published** — [OSS retrospective](https://github.com/br413/br413.github.io/blob/main/articles/oss-upstream-retrospective.md) |
+| **2026-08-XX** | **Article #2 published** — [Data quality contracts](https://github.com/br413/br413.github.io/blob/main/articles/data-quality-contracts-production-pipelines.md) |
 | **2026-08-XX** | **pipeline v0.2.1** — quarantine/DLQ ([ADR 0004](https://github.com/br413/production-data-pipeline/blob/main/docs/adr/0004-dead-letter-quarantine.md)) |
 
 ### July 2026
@@ -49,7 +49,7 @@ This is the **curated milestone timeline** behind my GitHub activity — portfol
 | Date | Milestone |
 |------|-----------|
 | **2026-07-26** | **[lakehouse-platform-starter](https://github.com/br413/lakehouse-platform-starter) v1.0.0** — Iceberg + Trino + Cosmos dbt + Airflow + OpenLineage + GE; [live dbt docs](https://br413.github.io/lakehouse-platform-starter/) |
-| **2026-07-20** | **Article #1 published** — [Production data pipeline](https://dev.to/bobby_ray_581732c715283b2/building-a-production-data-pipeline-with-incremental-loading-and-dbt-2e2c) |
+| **2026-07-20** | **Article #1 published** — [Production data pipeline](https://github.com/br413/br413.github.io/blob/main/articles/building-production-data-pipeline.md) |
 | **2026-07-20** | Portfolio site senior positioning + platform stack narrative live at [br413.github.io](https://br413.github.io/) |
 | **2026-07-19** | [data-quality-observability](https://github.com/br413/data-quality-observability): CI smoke test freshness fix (deterministic `--reference-time`) |
 | **2026-07-15** | **Prefect #22500 merged** — Kubernetes readiness vs liveness probe docs |

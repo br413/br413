@@ -2,7 +2,7 @@
 
 **Author:** [br413](https://github.com/br413) · **Plan:** [90-day-contribution-plan.md](https://github.com/br413/br413/blob/main/docs/90-day-contribution-plan.md)
 
-This is the closeout scorecard for the first ninety-day push to build a credible, honest public data-engineering profile. For OSS-specific lessons (what merged, what stalled, weekly rhythm), see the Dev.to article [*What I Learned Contributing to Prefect, dbt, and Airflow*](https://dev.to/bobby_ray_581732c715283b2/what-i-learned-contributing-to-prefect-dbt-and-airflow-an-honest-oss-retrospective-1ki8).
+This is the closeout scorecard for the first ninety-day push to build a credible, honest public data-engineering profile. For OSS-specific lessons (what merged, what stalled, weekly rhythm), see the Dev.to article [*What I Learned Contributing to Prefect, dbt, and Airflow*](https://github.com/br413/br413.github.io/blob/main/articles/oss-upstream-retrospective.md).
 
 ---
 
@@ -34,9 +34,9 @@ This is the closeout scorecard for the first ninety-day push to build a credible
 
 ### Writing
 
-1. [Building a Production Data Pipeline with Incremental Loading and dbt](https://dev.to/bobby_ray_581732c715283b2/building-a-production-data-pipeline-with-incremental-loading-and-dbt-2e2c)
-2. [Data Quality Contracts in Production Pipelines](https://dev.to/bobby_ray_581732c715283b2/data-quality-contracts-in-production-pipelines-without-a-separate-platform-team-f3)
-3. [What I Learned Contributing to Prefect, dbt, and Airflow](https://dev.to/bobby_ray_581732c715283b2/what-i-learned-contributing-to-prefect-dbt-and-airflow-an-honest-oss-retrospective-1ki8)
+1. [Building a Production Data Pipeline with Incremental Loading and dbt](https://github.com/br413/br413.github.io/blob/main/articles/building-production-data-pipeline.md)
+2. [Data Quality Contracts in Production Pipelines](https://github.com/br413/br413.github.io/blob/main/articles/data-quality-contracts-production-pipelines.md)
+3. [What I Learned Contributing to Prefect, dbt, and Airflow](https://github.com/br413/br413.github.io/blob/main/articles/oss-upstream-retrospective.md)
 
 ### Upstream (merged)
 
@@ -74,7 +74,7 @@ This is the closeout scorecard for the first ninety-day push to build a credible
 
 ## Manual items still open
 
-- [ ] Google Search Console indexing for [article #2](https://dev.to/bobby_ray_581732c715283b2/data-quality-contracts-in-production-pipelines-without-a-separate-platform-team-f3), [article #3](https://dev.to/bobby_ray_581732c715283b2/what-i-learned-contributing-to-prefect-dbt-and-airflow-an-honest-oss-retrospective-1ki8), [br413.github.io](https://br413.github.io/)
+- [ ] Google Search Console indexing for [article #2](https://github.com/br413/br413.github.io/blob/main/articles/data-quality-contracts-production-pipelines.md), [article #3](https://github.com/br413/br413.github.io/blob/main/articles/oss-upstream-retrospective.md), [br413.github.io](https://br413.github.io/)
 - [ ] Dev.to cover images for articles #2 and #3
 
 ---

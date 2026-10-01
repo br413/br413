@@ -64,7 +64,7 @@
 ### Week 6
 - [x] Open PR for **dbt docs [#9717](https://github.com/dbt-labs/docs.getdbt.com/issues/9717)** — [#9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) (Fusion telemetry slowest-nodes example)
 - [x] Release **production-data-pipeline v0.2.1** — [release](https://github.com/br413/production-data-pipeline/releases/tag/v0.2.1) (quarantine/DLQ)
-- [x] Dev.to article #2: [*Data Quality Contracts in Production Pipelines*](https://dev.to/bobby_ray_581732c715283b2/data-quality-contracts-in-production-pipelines-without-a-separate-platform-team-f3) — published Aug 2026
+- [x] Dev.to article #2: [*Data Quality Contracts in Production Pipelines*](https://github.com/br413/br413.github.io/blob/main/articles/data-quality-contracts-production-pipelines.md) — published Aug 2026
 
 ### Week 7
 - [x] `production-data-pipeline`: dead-letter / failed-record handling — design [#31](https://github.com/br413/production-data-pipeline/issues/31)/[#32](https://github.com/br413/production-data-pipeline/pull/32), implementation [#33](https://github.com/br413/production-data-pipeline/pull/33)
@@ -81,8 +81,8 @@
 ### Week 9
 - [x] Upstream follow-ups: merge bump **Airflow [#71158](https://github.com/apache/airflow/pull/71158)**, review nudge **dbt [#9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781)**, link **Meltano [#10253](https://github.com/meltano/meltano/pull/10253)** on [#6289](https://github.com/meltano/meltano/issues/6289), re-review **Prefect [#22533](https://github.com/PrefectHQ/prefect/pull/22533)**
 - [x] Cross-link Dev.to article #2 from `production-data-pipeline` and `data-quality-observability` READMEs
-- [x] Dev.to article #3 published: [*What I Learned Contributing to Prefect, dbt, and Airflow*](https://dev.to/bobby_ray_581732c715283b2/what-i-learned-contributing-to-prefect-dbt-and-airflow-an-honest-oss-retrospective-1ki8)
-- [ ] Request GSC indexing — [article #2](https://dev.to/bobby_ray_581732c715283b2/data-quality-contracts-in-production-pipelines-without-a-separate-platform-team-f3), [article #3](https://dev.to/bobby_ray_581732c715283b2/what-i-learned-contributing-to-prefect-dbt-and-airflow-an-honest-oss-retrospective-1ki8), [br413.github.io](https://br413.github.io/)
+- [x] Dev.to article #3 published: [*What I Learned Contributing to Prefect, dbt, and Airflow*](https://github.com/br413/br413.github.io/blob/main/articles/oss-upstream-retrospective.md)
+- [ ] Request GSC indexing — [article #2](https://github.com/br413/br413.github.io/blob/main/articles/data-quality-contracts-production-pipelines.md), [article #3](https://github.com/br413/br413.github.io/blob/main/articles/oss-upstream-retrospective.md), [br413.github.io](https://br413.github.io/)
 
 ### Week 10
 - [x] `data-quality-observability`: schema registry / contract versioning design ADR — [#12](https://github.com/br413/data-quality-observability/pull/12) [ADR 0002](https://github.com/br413/data-quality-observability/blob/main/docs/adr/0002-schema-registry-and-contract-versioning.md), `contracts/registry.yml`

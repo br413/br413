@@ -70,7 +70,7 @@ Explain ADR 0004 quarantine decision: per-record routing, `records_quarantined` 
 
 - [data-quality-observability](https://github.com/br413/data-quality-observability)
 - [production-data-pipeline v0.2.1](https://github.com/br413/production-data-pipeline/releases/tag/v0.2.1) (quarantine)
-- [Building a Production Data Pipeline…](https://dev.to/bobby_ray_581732c715283b2/building-a-production-data-pipeline-with-incremental-loading-and-dbt-2e2c) (article #1)
+- [Building a Production Data Pipeline…](https://github.com/br413/br413.github.io/blob/main/articles/building-production-data-pipeline.md) (article #1)
 
 ## Tags (Dev.to)
 

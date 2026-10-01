@@ -13,7 +13,7 @@
 | In-flight upstream PRs | **3** tracked — Airflow #70171, dbt docs #9960, #9961 |
 | Upstream merges (cumulative) | **8** — + Prefect #22533 (Sep 11) |
 | Portfolio | pipeline **v0.3.0** ✓, dqo ADR 0002 complete, pipeline ADR 0005 pins |
-| Writing | **4** Dev.to articles live — [article #4](https://dev.to/bobby_ray_581732c715283b2/contract-versioning-in-production-pipelines-registry-cli-and-run-history-13el) published Aug 2026 |
+| Writing | **4** Dev.to articles live — [article #4](https://github.com/br413/br413.github.io/blob/main/articles/contract-versioning-production-pipelines.md) published Aug 2026 |
 | Honest gap | 5+ merge target exceeded; remaining WIP is review bandwidth |
 
 ---
@@ -54,7 +54,7 @@
 
 ### 2. Publish article #4 — done ✓
 
-Published: [Contract Versioning in Production Pipelines](https://dev.to/bobby_ray_581732c715283b2/contract-versioning-in-production-pipelines-registry-cli-and-run-history-13el) (Aug 2026). Site and README cross-links synced.
+Published: [Contract Versioning in Production Pipelines](https://github.com/br413/br413.github.io/blob/main/articles/contract-versioning-production-pipelines.md) (Aug 2026). Site and README cross-links synced.
 
 ### 3. Visibility cleanup (Dec–Jan)
 

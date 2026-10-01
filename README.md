@@ -1,6 +1,6 @@
 <div align="center">
 
-# Bobby Ray · Senior Data Engineer & Data Architect
+# br413 · Senior Data Engineer & Data Architect
 
 **Data platforms where pipelines fail loudly — not silently**
 
@@ -13,7 +13,7 @@
 [![Portfolio site](https://img.shields.io/badge/Website-br413.github.io-1f6feb?style=flat-square&logo=githubpages&logoColor=white)](https://br413.github.io/)
 [![lakehouse-platform-starter](https://img.shields.io/github/v/release/br413/lakehouse-platform-starter?label=lakehouse--platform&style=flat-square&color=238636)](https://github.com/br413/lakehouse-platform-starter/releases/tag/v1.0.0)
 [![Upstream merges](https://img.shields.io/badge/upstream%20merges-8-238636?style=flat-square)](docs/work-history.md)
-[![Dev.to articles](https://img.shields.io/badge/Dev.to%20articles-4-0a0a0a?style=flat-square&logo=devdotto&logoColor=white)](https://dev.to/bobby_ray_581732c715283b2)
+[![Dev.to articles](https://img.shields.io/badge/Dev.to%20articles-4-0a0a0a?style=flat-square&logo=devdotto&logoColor=white)](https://br413.github.io/#writing)
 [![Portfolio releases](https://img.shields.io/badge/pipeline-v0.3.0-1f6feb?style=flat-square)](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0)
 
 </div>
@@ -121,7 +121,7 @@ Production operations knowledge contributed upstream:
 |----------------------|-------|
 | Lakehouse + pipeline + quality + platform stack | Pinned repos |
 | Upstream OSS (Prefect, dbt, Airflow) | [OSS table above](#open-source-contributions) |
-| Architecture write-ups | [Dev.to](https://dev.to/bobby_ray_581732c715283b2) · [br413.github.io](https://br413.github.io/) |
+| Architecture write-ups | [Writing](https://br413.github.io/#writing) · [br413.github.io](https://br413.github.io/) |
 | 90-day contribution plan | [docs/90-day-contribution-plan.md](docs/90-day-contribution-plan.md) |
 | 90-day retrospective · next quarter | [Discussion #34](https://github.com/br413/br413/discussions/34) · [Q4 plan](docs/next-quarter-plan.md) · [Nov–Jan plan](docs/nov-jan-contribution-plan.md) |
 | Public work history (milestones) | [docs/work-history.md](docs/work-history.md) |
@@ -135,16 +135,18 @@ Each flagship repo includes ADRs, pytest coverage, GitHub Actions CI, operations
 
 | Article | Topic |
 |---------|-------|
-| [**Building a Production Data Pipeline with Incremental Loading and dbt**](https://dev.to/bobby_ray_581732c715283b2/building-a-production-data-pipeline-with-incremental-loading-and-dbt-2e2c) | Incremental checkpoints, idempotent loads, medallion layering, Airflow orchestration, failure modes |
-| [**Data Quality Contracts in Production Pipelines (Without a Separate Platform Team)**](https://dev.to/bobby_ray_581732c715283b2/data-quality-contracts-in-production-pipelines-without-a-separate-platform-team-f3) | Row-level quarantine at ingestion, YAML dataset contracts, alert routing, CI enforcement |
-| [**What I Learned Contributing to Prefect, dbt, and Airflow**](https://dev.to/bobby_ray_581732c715283b2/what-i-learned-contributing-to-prefect-dbt-and-airflow-an-honest-oss-retrospective-1ki8) | Honest OSS retrospective — three merges, four open PRs, building in public |
-| [**Contract Versioning in Production Pipelines**](https://dev.to/bobby_ray_581732c715283b2/contract-versioning-in-production-pipelines-registry-cli-and-run-history-13el) | Registry → CLI → run history → CI guards — ADR 0002 stack |
+| [**Building a Production Data Pipeline with Incremental Loading and dbt**](https://github.com/br413/br413.github.io/blob/main/articles/building-production-data-pipeline.md) | Incremental checkpoints, idempotent loads, medallion layering, Airflow orchestration, failure modes |
+| [**Data Quality Contracts in Production Pipelines (Without a Separate Platform Team)**](https://github.com/br413/br413.github.io/blob/main/articles/data-quality-contracts-production-pipelines.md) | Row-level quarantine at ingestion, YAML dataset contracts, alert routing, CI enforcement |
+| [**What I Learned Contributing to Prefect, dbt, and Airflow**](https://github.com/br413/br413.github.io/blob/main/articles/oss-upstream-retrospective.md) | Honest OSS retrospective — three merges, four open PRs, building in public |
+| [**Contract Versioning in Production Pipelines**](https://github.com/br413/br413.github.io/blob/main/articles/contract-versioning-production-pipelines.md) | Registry → CLI → run history → CI guards — ADR 0002 stack |
 
 More at [**br413.github.io**](https://br413.github.io/) · series: *Cloud Data Platform Patterns*
 
 ## Collaboration
 
 Open to senior data engineering roles, data platform architecture discussions, and technical collaboration.
+
+[Telegram: @CtrlAltBomb](https://t.me/CtrlAltBomb) · [Gmail: br198064@gmail.com](mailto:br198064@gmail.com) · [WhatsApp: +1 (229) 742 1656](https://wa.me/12297421656)
 
 ---
 
