@@ -1,5 +1,8 @@
 # What I Learned Merging PRs to Prefect, dbt, and Airflow (Dev.to draft)
 
+> Historical planning/draft snapshot. PR statuses and counts below reflect the original writing context, not current status. Airflow #70171 merged September 14, 2026; dbt docs #9960 merged September 29, 2026. See the [verified contribution record](../work-history.md) for statuses checked September 30, 2026.
+
+
 **Target:** Week 9 article / GitHub Discussion · honest retrospective on upstream contribution experience
 
 **Published articles (series):**

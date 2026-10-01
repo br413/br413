@@ -6,12 +6,12 @@
 
 ---
 
-## Starting position (end of Q4)
+## Starting position (verified September 30, 2026)
 
 | Signal | Status |
 |--------|--------|
-| In-flight upstream PRs | **3** tracked — Airflow #70171, dbt docs #9960, #9961 |
-| Upstream merges (cumulative) | **8** — + Prefect #22533 (Sep 11) |
+| In-flight upstream PRs | **1** tracked — [dbt docs #9961](https://github.com/dbt-labs/docs.getdbt.com/pull/9961) |
+| Merged PRs in the verified record | **10** — includes Airflow #70171 (Sep 14) and dbt docs #9960 (Sep 29); [record](work-history.md) |
 | Portfolio | pipeline **v0.3.0** ✓, dqo ADR 0002 complete, pipeline ADR 0005 pins |
 | Writing | **4** Dev.to articles live — [article #4](https://github.com/br413/br413.github.io/blob/main/articles/contract-versioning-production-pipelines.md) published Aug 2026 |
 | Honest gap | 5+ merge target exceeded; remaining WIP is review bandwidth |
@@ -38,10 +38,12 @@
 | PR | Nov action | Dec action | Done when |
 |----|------------|------------|-----------|
 | [Airflow #71158](https://github.com/apache/airflow/pull/71158) | ~~Merge bump~~ | — | **Merged** ✓ |
-| [Airflow #70171](https://github.com/apache/airflow/pull/70171) | CI green; respond to review | Rebase if needed | Merged or closed gracefully |
+| [Airflow #70171](https://github.com/apache/airflow/pull/70171) | Complete — merged Sep 14, 2026 | — | **Merged** ✓ |
 | [dbt docs #9781](https://github.com/dbt-labs/docs.getdbt.com/pull/9781) | ~~Review nudge~~ | — | **Merged** ✓ |
 | [Meltano #10253](https://github.com/meltano/meltano/pull/10253) | Relocate + `el` vs deprecated `elt` ✓ | — | **Merged** ✓ |
-| [Prefect #22533](https://github.com/PrefectHQ/prefect/pull/22533) | Re-review request | Address any new feedback | Merged |
+| [Prefect #22533](https://github.com/PrefectHQ/prefect/pull/22533) | Complete — merged Sep 11, 2026 | — | **Merged** ✓ |
+| [dbt docs #9960](https://github.com/dbt-labs/docs.getdbt.com/pull/9960) | Complete — merged Sep 29, 2026 | — | **Merged** ✓ |
+| [dbt docs #9961](https://github.com/dbt-labs/docs.getdbt.com/pull/9961) | Respond to maintainer review | Rebase if needed | Merged or closed with a documented reason |
 | [InvenTree #12420](https://github.com/inventree/InvenTree/pull/12420) | ~~Align healthcheck docs to #12124~~ | — | **Merged** ✓ |
 | [InvenTree #12474](https://github.com/inventree/InvenTree/pull/12474) | ~~Move admin access to db_admin.md~~ | — | **Merged** ✓ |
 | [InvenTree #12473](https://github.com/inventree/InvenTree/pull/12473) | ~~Blocked — no LDAP verifier~~ | — | **Closed** — no AD env to verify |
@@ -77,8 +79,8 @@ Only if upstream WIP ≤ 2:
 
 | Month | Must achieve | Stretch |
 |-------|--------------|---------|
-| **November 2026** | Q4 closeout doc updated; **#71158 merged** ✓ | 4th cumulative merge |
-| **December 2026** | GSC submitted for all URLs; cover images | 4th cumulative merge |
+| **November 2026** | Update closeout with actual results; follow #9961 review | One focused maintenance improvement |
+| **December 2026** | Check GSC submissions and cover images | One focused maintenance improvement |
 | **January 2027** | Honest Q1 retrospective; draft Feb–Apr plan | ~~5 cumulative merges~~ ✓; ~~pipeline v0.3.0~~ ✓ |
 
 ---
@@ -99,8 +101,8 @@ Only if upstream WIP ≤ 2:
 
 | Month | Upstream merges (cum.) | Articles | GSC | Notes |
 |-------|------------------------|----------|-----|-------|
-| Nov 2026 | **5** | 4 live | | [Meltano #10253](https://github.com/meltano/meltano/pull/10253) merged; #9781; #71158; [pipeline v0.3.0](https://github.com/br413/production-data-pipeline/releases/tag/v0.3.0) |
-| Sep 2026 | **7** | 4 live | | [InvenTree #12420](https://github.com/inventree/InvenTree/pull/12420), [#12474](https://github.com/inventree/InvenTree/pull/12474) merged Aug 31 |
+| Nov 2026 | | | | Future checkpoint; record actual results in November |
+| Sep 2026 | **10 listed merges** | 4 live | | Verified Sep 30; Airflow #70171 and dbt docs #9960 merged; #9961 open |
 | Dec 2026 | | 4 live | pending | Article #4 published early (Aug) |
 | Jan 2027 | | | | |
 
