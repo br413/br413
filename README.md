@@ -1,4 +1,4 @@
-# br413 · Senior Software Engineer
+# Senior Software Engineer
 
 I’m a senior software engineer who enjoys building useful software and keeping it reliable as requirements change. My public projects cover web applications, Python tools, and data systems. I care about practical design, readable code, useful tests, and making systems easier to maintain.
 
