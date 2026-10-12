@@ -4,7 +4,7 @@ I’m a senior software engineer who enjoys building useful software and keeping
 
 Data engineering is also part of my work, with a particular interest in API ingestion, data quality, and lakehouse platforms.
 
-[Email: br198064@gmail.com](mailto:br198064@gmail.com) · [Portfolio](https://br413.github.io/) · [Telegram](https://t.me/CtrlAltBomb) · [WhatsApp](https://wa.me/12297421656)
+[Email: br198064@gmail.com](mailto:br198064@gmail.com) · [Portfolio](https://br413.github.io/) · [Telegram](https://t.me/CtrlAltBomb) · [WhatsApp](https://wa.me/14423603951)
 
 ## Technologies
 
