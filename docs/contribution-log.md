@@ -105,3 +105,4 @@ Automated heartbeat for the [90-day contribution plan](./90-day-contribution-pla
 | 2026-11-12 | Thursday | Optional: review open PRs or 90-day plan checklist |
 | 2026-11-13 | Friday | README/ADR/ops runbook update; cross-link writing or portfolio |
 | 2026-11-14 | Saturday | Optional: review open PRs or 90-day plan checklist |
+| 2026-11-15 | Sunday | Optional: review open PRs or 90-day plan checklist |
