@@ -116,3 +116,4 @@ Automated heartbeat for the [90-day contribution plan](./90-day-contribution-pla
 | 2026-11-23 | Monday | Comment on 1 upstream issue; 1 small docs/tests commit on a portfolio repo |
 | 2026-11-24 | Tuesday | Optional: review open PRs or 90-day plan checklist |
 | 2026-11-25 | Wednesday | OSS PR work or portfolio feature/fix |
+| 2026-11-26 | Thursday | Optional: review open PRs or 90-day plan checklist |
